@@ -1,3 +1,4 @@
+#include "relay_areas.dm"
 #include "relay.dmm"
 #include "../mining/mining_areas.dm"
 
@@ -13,6 +14,16 @@
 	icon = 'icons/turf/jungle.dmi'
 	icon_state = "grass3"
 
-/turf/simulated/floor/relay/grass/New()
-	set_light(2, 1, "f7edc5")
-	temperature = T20C - 11
+/turf/simulated/floor/relay/grass/get_footstep_sound()
+	return safepick(footstep_sounds[FOOTSTEP_ASTEROID])
+
+/obj/structure/sign/relay
+	name = "\improper welcome sign"
+	desc = "An old, rusted sign. It reads 'Pentaline Relay Station'. At the bottom is a small logo for 'HSF Incorporated'."
+	icon_state = "darkplaque"
+
+/obj/structure/sign/relay/group_picture
+	name = "\improper group picture"
+	desc = "A faded picture of fifteen humans standing in front of a radio dish. They look happy."
+	icon = 'relay_sprites.dmi'
+	icon_state = "group_picture"
