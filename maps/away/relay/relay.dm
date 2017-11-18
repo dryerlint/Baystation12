@@ -24,6 +24,10 @@
 
 /obj/structure/sign/relay/group_picture
 	name = "\improper group picture"
-	desc = "A faded picture of fifteen humans standing in front of a radio dish. They look happy."
+	desc = "A faded picture of nine humans standing in front of a radio dish. They look happy."
 	icon = 'relay_sprites.dmi'
 	icon_state = "group_picture"
+
+/obj/item/weapon/paper/relay/welcome_note
+	name = "welcome note"
+	info = "<h2>Pentaline Relay Station</h2>Welcome! Please wait for our desk staff to arrive and register you."
