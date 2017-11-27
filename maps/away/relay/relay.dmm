@@ -1,388 +1,523 @@
-"aa" = (/turf/unsimulated/mineral,/area/relay/relay_outside)
-"ab" = (/turf/unsimulated/mineral,/area/mine/unexplored)
-"ac" = (/turf/unsimulated/mask,/area/mine/unexplored)
-"ad" = (/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"ae" = (/obj/structure/flora/ausbushes/brflowers,/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"af" = (/turf/simulated/wall,/area/relay/relay_outside)
-"ag" = (/turf/simulated/wall,/area/relay/dining)
-"ah" = (/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor/plating,/area/relay/dining)
-"ai" = (/turf/simulated/wall,/area/relay/kitchen)
-"aj" = (/turf/simulated/wall,/area/relay/engineering)
-"ak" = (/obj/machinery/vending/fitness,/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
-"al" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/relay/dining)
-"am" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/dining)
-"an" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
-"ao" = (/obj/structure/closet/secure_closet/freezer/fridge,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
-"ap" = (/obj/structure/closet/crate/freezer/rations,/obj/random/snack,/obj/random/snack,/obj/item/pizzabox/margherita,/obj/item/weapon/reagent_containers/food/snacks/baguette,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
-"aq" = (/obj/structure/closet/crate/freezer,/obj/machinery/power/apc/derelict{dir = 1},/obj/structure/cable{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
-"ar" = (/obj/structure/closet/chefcloset,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
-"as" = (/turf/simulated/floor/plating,/area/relay/engineering)
-"at" = (/obj/machinery/light_construct{dir = 1},/turf/simulated/floor/plating,/area/relay/engineering)
-"au" = (/obj/structure/table/rack,/obj/random/powercell,/obj/random/loot,/obj/random/loot,/turf/simulated/floor/plating,/area/relay/engineering)
-"av" = (/obj/structure/table/rack,/obj/random/tank,/obj/random/toolbox,/obj/random/toolbox,/turf/simulated/floor/plating,/area/relay/engineering)
-"aw" = (/obj/random/closet,/turf/simulated/floor/plating,/area/relay/engineering)
-"ax" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
-"ay" = (/obj/item/weapon/stool/padded,/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
-"az" = (/obj/item/weapon/stool/padded,/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
-"aA" = (/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
-"aB" = (/obj/machinery/door/airlock/science{name = "Kitchen"},/turf/simulated/floor/tiled,/area/relay/kitchen)
-"aC" = (/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
-"aD" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
-"aE" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 4},/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
-"aF" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/engineering)
-"aG" = (/obj/structure/table/rack,/obj/random/material,/obj/random/material,/turf/simulated/floor/plating,/area/relay/engineering)
-"aH" = (/obj/structure/table/rack,/obj/random/medical,/obj/random/advdevice,/obj/random/advdevice,/obj/random/firstaid,/turf/simulated/floor/plating,/area/relay/engineering)
-"aI" = (/obj/machinery/button/remote/blast_door{id = "away_relay_warehouse_exterior"; name = "Shutter Switch"; pixel_x = 25},/turf/simulated/floor/plating,/area/relay/engineering)
-"aJ" = (/obj/machinery/button/remote/blast_door{id = "away_relay_warehouse_exterior"; name = "Shutter Switch"; pixel_x = -25},/turf/simulated/floor/relay/grass,/area/relay/engineering)
-"aK" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/item/weapon/stool/padded,/turf/simulated/floor/tiled,/area/relay/dining)
-"aL" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/random/trash,/turf/simulated/floor/tiled,/area/relay/dining)
-"aM" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/random/snack{step_x = 7; step_y = 6},/obj/random/snack{step_x = 0; step_y = 0},/obj/random/drinkbottle,/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
-"aN" = (/obj/structure/sink{icon_state = "sink"; dir = 8; pixel_x = -12; pixel_y = 2},/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
-"aO" = (/obj/structure/table/steel,/obj/machinery/reagentgrinder,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
-"aP" = (/obj/machinery/light_construct{dir = 8},/turf/simulated/floor/plating,/area/relay/engineering)
-"aQ" = (/obj/item/stack/cable_coil/single,/turf/simulated/floor/plating,/area/relay/engineering)
-"aR" = (/obj/effect/decal/cleanable/dirt,/obj/random/junk,/turf/simulated/floor/plating,/area/relay/engineering)
-"aS" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/engineering)
-"aT" = (/obj/machinery/door/blast/shutters{dir = 8; id = "away_relay_warehouse_exterior"; name = "Exterior Engineering Shutters"},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/plating,/area/relay/engineering)
-"aU" = (/turf/simulated/floor/relay/grass,/area/relay/engineering)
-"aV" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/machinery/power/apc/derelict{dir = 8},/obj/structure/cable{d2 = 1; icon_state = "0-4"},/turf/simulated/floor/tiled,/area/relay/dining)
-"aW" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/simulated/floor/tiled,/area/relay/dining)
-"aX" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/relay/dining)
-"aY" = (/obj/item/weapon/stool/padded,/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/relay/dining)
-"aZ" = (/obj/item/weapon/stool/padded,/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/relay/dining)
-"ba" = (/obj/item/weapon/stool/padded,/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/dining)
-"bb" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled/dark,/area/relay/kitchen)
-"bc" = (/obj/structure/table/steel,/obj/machinery/microwave,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
-"bd" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/relay/engineering)
-"be" = (/obj/random/junk,/turf/simulated/floor/plating,/area/relay/engineering)
-"bf" = (/obj/machinery/vending/cola{name = "hacked Robust Softdrinks"; prices = list()},/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
-"bg" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/machinery/light,/turf/simulated/floor/tiled,/area/relay/dining)
-"bh" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/relay/dining)
-"bi" = (/obj/random/junk,/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
-"bj" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
-"bk" = (/obj/structure/table/steel,/obj/item/weapon/material/kitchen/rollingpin,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
-"bl" = (/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/industrial/warning/dust/corner,/obj/machinery/power/apc/derelict{dir = 8},/obj/structure/cable{icon_state = "0-4"; d2 = 4},/turf/simulated/floor/plating,/area/relay/engineering)
-"bm" = (/obj/effect/floor_decal/industrial/warning/dust,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/relay/engineering)
-"bn" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/industrial/warning/dust,/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/relay/engineering)
-"bo" = (/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 8},/turf/simulated/floor/plating,/area/relay/engineering)
-"bp" = (/obj/effect/floor_decal/industrial/warning/dust/corner,/turf/simulated/floor/plating,/area/relay/engineering)
-"bq" = (/obj/effect/floor_decal/industrial/warning/dust,/turf/simulated/floor/plating,/area/relay/engineering)
-"br" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/button/remote/blast_door{id = "away_relay_warehouse_interior"; name = "Shutter Switch"; pixel_x = 0; pixel_y = -25},/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 8},/turf/simulated/floor/plating,/area/relay/engineering)
-"bs" = (/obj/machinery/light_construct,/turf/simulated/floor/plating,/area/relay/engineering)
-"bt" = (/obj/effect/floor_decal/industrial/warning/dust/corner,/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"bu" = (/obj/machinery/door/airlock/glass_virology{name = "Dining Hall"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/relay/dining)
-"bv" = (/obj/machinery/door/airlock/glass_virology{name = "Dining Hall"},/turf/simulated/floor/tiled,/area/relay/dining)
-"bw" = (/obj/machinery/door/airlock/science{name = "Kitchen"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/relay/kitchen)
-"bx" = (/obj/structure/sign/warning/high_voltage,/turf/simulated/wall,/area/relay/engineering)
-"by" = (/obj/machinery/door/airlock/glass_engineering{name = "Engineering"; req_access = list(1)},/turf/simulated/floor/plating,/area/relay/engineering)
-"bz" = (/obj/machinery/door/airlock/glass_engineering{name = "Engineering"; req_access = list(1)},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/relay/engineering)
-"bA" = (/obj/machinery/door/blast/shutters{dir = 2; id = "away_relay_warehouse_interior"; name = "Engineering Shutters"},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/plating,/area/relay/engineering)
-"bB" = (/turf/simulated/wall,/area/relay/main_hallway)
-"bC" = (/turf/simulated/floor/tiled/dark,/area/relay/relay_outside)
-"bD" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 4; icon_state = "warning_dust"},/turf/simulated/floor/tiled/dark,/area/relay/relay_outside)
-"bE" = (/obj/machinery/door/airlock/highsecurity{name = "Telecommunications"; req_access = list(1)},/turf/simulated/floor/tiled,/area/relay/relay_outside)
-"bF" = (/obj/structure/sign/warning/server_room{pixel_y = 32},/obj/effect/floor_decal/industrial/warning/dust{icon_state = "warning_dust"; dir = 8},/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"bG" = (/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"bH" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"bI" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"bJ" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"bK" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"bL" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"bM" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"bN" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/catwalk,/obj/machinery/alarm{pixel_y = 24},/turf/simulated/floor/plating,/area/relay/main_hallway)
-"bO" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"bP" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/light{dir = 1},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"bQ" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 4},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"bR" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"bS" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"bT" = (/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 1},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"bU" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"bV" = (/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 4},/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"bW" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"bX" = (/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"bY" = (/obj/machinery/button/remote/blast_door{id = "away_relay_warehouse_interior"; name = "Shutter Switch"; pixel_x = 0; pixel_y = 25},/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 1},/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"bZ" = (/obj/structure/bed/chair/comfy/green{dir = 4},/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"ca" = (/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"cb" = (/obj/structure/flora/ausbushes/sunnybush,/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"cc" = (/obj/structure/sign/warning/server_room{pixel_y = -32},/obj/effect/floor_decal/industrial/warning/dust{icon_state = "warning_dust"; dir = 8},/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"cd" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"ce" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/main_hallway)
-"cf" = (/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"cg" = (/obj/machinery/power/apc/derelict,/obj/structure/cable,/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"ch" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"ci" = (/obj/effect/decal/cleanable/dirt,/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"cj" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
-"ck" = (/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 4},/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"cl" = (/turf/simulated/wall,/area/relay/foyer)
-"cm" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/airlock/glass_command{name = "Checkpoint"; req_access = list(1)},/turf/simulated/floor/tiled,/area/relay/foyer)
-"cn" = (/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor/plating,/area/relay/foyer)
-"co" = (/obj/machinery/door/airlock/glass_virology{name = "Relay Station Interior"},/turf/simulated/floor/tiled,/area/relay/foyer)
-"cp" = (/turf/simulated/wall,/area/relay/storage)
-"cq" = (/obj/machinery/door/airlock/maintenance{name = "Storage Room"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/relay/storage)
-"cr" = (/turf/simulated/wall,/area/relay/bunks)
-"cs" = (/obj/machinery/door/airlock{name = "Bunks"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/wood,/area/relay/bunks)
-"ct" = (/obj/machinery/door/airlock{name = "Bunks"},/turf/simulated/floor/wood,/area/relay/bunks)
-"cu" = (/obj/effect/floor_decal/corner/blue/diagonal,/turf/simulated/floor/tiled,/area/relay/foyer)
-"cv" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/corner/blue/diagonal,/turf/simulated/floor/tiled,/area/relay/foyer)
-"cw" = (/obj/structure/table/standard,/obj/item/clothing/head/bowlerhat{step_x = 0; step_y = 0},/obj/structure/noticeboard{pixel_y = 32},/turf/simulated/floor/tiled/dark,/area/relay/foyer)
-"cx" = (/obj/effect/floor_decal/corner/green{dir = 1},/turf/simulated/floor/tiled,/area/relay/foyer)
-"cy" = (/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/corner/green{dir = 1},/turf/simulated/floor/tiled,/area/relay/foyer)
-"cz" = (/obj/effect/floor_decal/corner/green{dir = 1},/obj/machinery/light{icon_state = "tube1"; dir = 1},/turf/simulated/floor/tiled,/area/relay/foyer)
-"cA" = (/obj/structure/sign/relay/group_picture,/turf/simulated/wall,/area/relay/foyer)
-"cB" = (/obj/structure/table/rack,/obj/random/maintenance,/obj/random/maintenance,/turf/simulated/floor/plating,/area/relay/storage)
-"cC" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating,/area/relay/storage)
-"cD" = (/obj/machinery/power/apc/derelict{dir = 1},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/plating,/area/relay/storage)
-"cE" = (/obj/structure/table/rack,/turf/simulated/floor/plating,/area/relay/storage)
-"cF" = (/obj/structure/bookcase,/turf/simulated/floor/wood,/area/relay/bunks)
-"cG" = (/obj/machinery/power/apc/derelict{dir = 1},/obj/structure/cable{d2 = 1; icon_state = "0-4"},/turf/simulated/floor/wood,/area/relay/bunks)
-"cH" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/wood,/area/relay/bunks)
-"cI" = (/obj/structure/bed/chair/comfy/beige,/turf/simulated/floor/wood,/area/relay/bunks)
-"cJ" = (/obj/machinery/shower{dir = 4; icon_state = "shower"; pixel_x = 0; pixel_y = 0},/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"cK" = (/obj/machinery/shower{dir = 8; icon_state = "shower"; pixel_x = 0; pixel_y = 0},/obj/random/soap,/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"cL" = (/obj/structure/toilet,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"cM" = (/obj/structure/toilet,/obj/machinery/light/small{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"cN" = (/turf/simulated/floor/wood,/area/relay/bunks)
-"cO" = (/obj/structure/closet/cabinet,/obj/random/handgun,/obj/random/ammo,/obj/random/cash,/obj/random/cash,/obj/random/plushie,/turf/simulated/floor/carpet/blue2,/area/relay/bunks)
-"cP" = (/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor/plating,/area/relay/bunks)
-"cQ" = (/obj/structure/cable{icon_state = "0-4"; d2 = 4},/obj/effect/floor_decal/corner/blue/diagonal,/obj/machinery/power/apc/derelict{dir = 8},/turf/simulated/floor/tiled,/area/relay/foyer)
-"cR" = (/obj/structure/bed/chair/office/dark{dir = 4},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/corner/blue/diagonal,/turf/simulated/floor/tiled,/area/relay/foyer)
-"cS" = (/obj/structure/table/standard,/obj/item/modular_computer/laptop,/turf/simulated/floor/tiled/dark,/area/relay/foyer)
-"cT" = (/turf/simulated/floor/tiled,/area/relay/foyer)
-"cU" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
-"cV" = (/obj/structure/bed/chair{dir = 8},/turf/simulated/floor/tiled,/area/relay/foyer)
-"cW" = (/obj/structure/bed/chair{dir = 4},/turf/simulated/floor/tiled,/area/relay/foyer)
-"cX" = (/obj/effect/decal/cleanable/generic,/obj/item/trash/pistachios,/turf/simulated/floor/tiled,/area/relay/foyer)
-"cY" = (/obj/machinery/vending/snack,/turf/simulated/floor/tiled,/area/relay/foyer)
-"cZ" = (/obj/structure/table/rack,/obj/random/junk,/obj/random/loot,/turf/simulated/floor/plating,/area/relay/storage)
-"da" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating{icon_state = "dmg4"},/area/relay/storage)
-"db" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/storage)
-"dc" = (/obj/structure/table/rack,/obj/random/gloves,/obj/random/gloves,/turf/simulated/floor/plating,/area/relay/storage)
-"dd" = (/obj/structure/bookcase/manuals/engineering,/turf/simulated/floor/wood,/area/relay/bunks)
-"de" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 4},/turf/simulated/floor/wood,/area/relay/bunks)
-"df" = (/obj/machinery/shower{dir = 8; icon_state = "shower"; pixel_x = 0; pixel_y = 0},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"dg" = (/obj/structure/curtain/open,/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"dh" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/captain,/turf/simulated/floor/carpet/blue2,/area/relay/bunks)
-"di" = (/obj/machinery/light/small{dir = 8},/obj/effect/floor_decal/corner/blue/diagonal,/turf/simulated/floor/tiled,/area/relay/foyer)
-"dj" = (/obj/effect/decal/cleanable/blood/drip,/obj/effect/floor_decal/corner/blue/diagonal,/obj/effect/decal/cleanable/dirt,/obj/item/weapon/pen{step_x = 27; step_y = 4},/turf/simulated/floor/tiled,/area/relay/foyer)
-"dk" = (/obj/structure/table/standard,/obj/item/weapon/paper_bin,/turf/simulated/floor/tiled/dark,/area/relay/foyer)
-"dl" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
-"dm" = (/obj/structure/bed/chair{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
-"dn" = (/obj/structure/bed/chair{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
-"do" = (/obj/machinery/vending/coffee,/turf/simulated/floor/tiled,/area/relay/foyer)
-"dp" = (/turf/simulated/floor/plating,/area/relay/storage)
-"dq" = (/obj/machinery/light/small,/turf/simulated/floor/plating,/area/relay/storage)
-"dr" = (/obj/structure/table/rack,/obj/random/material,/obj/random/material,/turf/simulated/floor/plating,/area/relay/storage)
-"ds" = (/obj/structure/bookcase/manuals/medical,/turf/simulated/floor/wood,/area/relay/bunks)
-"dt" = (/obj/machinery/light/small,/turf/simulated/floor/wood,/area/relay/bunks)
-"du" = (/obj/structure/bed/chair/office/dark{dir = 4},/turf/simulated/floor/wood,/area/relay/bunks)
-"dv" = (/obj/item/modular_computer/console,/turf/simulated/floor/wood,/area/relay/bunks)
-"dw" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"dx" = (/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"dy" = (/obj/structure/sink{dir = 4; icon_state = "sink"; pixel_x = 11; pixel_y = 0},/obj/structure/mirror{pixel_x = 32},/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"dz" = (/obj/structure/curtain/open/bed{name = "Bunk Nine"},/turf/simulated/floor/carpet/blue2,/area/relay/bunks)
-"dA" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue2,/area/relay/bunks)
-"dB" = (/obj/effect/floor_decal/corner/blue/diagonal,/obj/structure/table/rack,/obj/item/weapon/clipboard,/obj/random/advdevice,/obj/random/maintenance,/turf/simulated/floor/tiled,/area/relay/foyer)
-"dC" = (/obj/structure/table/standard,/turf/simulated/floor/tiled/dark,/area/relay/foyer)
-"dD" = (/obj/effect/floor_decal/corner/green,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
-"dE" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/foyer)
-"dF" = (/obj/effect/floor_decal/corner/green,/obj/machinery/light_construct,/turf/simulated/floor/tiled,/area/relay/foyer)
-"dG" = (/obj/effect/floor_decal/corner/green,/turf/simulated/floor/tiled,/area/relay/foyer)
-"dH" = (/obj/machinery/newscaster,/turf/simulated/wall,/area/relay/foyer)
-"dI" = (/obj/effect/decal/cleanable/dirt,/obj/random/closet,/turf/simulated/floor/plating,/area/relay/storage)
-"dJ" = (/obj/random/closet,/turf/simulated/floor/plating,/area/relay/storage)
-"dK" = (/obj/structure/sign/relay/group_picture,/turf/simulated/wall,/area/relay/bunks)
-"dL" = (/obj/structure/curtain/open/shower,/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"dM" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"dN" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"dO" = (/obj/structure/sink{dir = 4; icon_state = "sink"; pixel_x = 11; pixel_y = 0},/obj/structure/mirror{icon_state = "mirror_broke"; pixel_x = 32; pixel_y = 0},/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"dP" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor/wood,/area/relay/bunks)
-"dQ" = (/obj/machinery/door/airlock/glass_virology{name = "Relay Station Entrance"},/obj/machinery/door/firedoor/multi_tile,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
-"dR" = (/obj/machinery/door/airlock/glass_virology{emagged = 1; name = "Relay Station Entrance"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
-"dS" = (/obj/structure/window/reinforced{dir = 4},/obj/item/weapon/material/shard,/obj/item/stack/rods,/obj/structure/grille/broken,/turf/simulated/floor/plating,/area/relay/foyer)
-"dT" = (/turf/simulated/wall{damage = 20},/area/relay/foyer)
-"dU" = (/obj/structure/closet/cabinet,/obj/random/glasses,/obj/random/glasses,/obj/item/weapon/book/manual/engineering_hacking,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"dV" = (/obj/structure/undies_wardrobe,/turf/simulated/floor/wood,/area/relay/bunks)
-"dW" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/wood,/area/relay/bunks)
-"dX" = (/obj/structure/closet/wardrobe/green,/obj/random/plushie,/turf/simulated/floor/wood,/area/relay/bunks)
-"dY" = (/obj/structure/closet/wardrobe/pjs,/obj/random/clothing,/turf/simulated/floor/wood,/area/relay/bunks)
-"dZ" = (/obj/machinery/door/airlock{name = "Restroom"},/turf/simulated/floor/tiled/white,/area/relay/bunks)
-"ea" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/blue,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"eb" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/relay_outside)
-"ec" = (/obj/item/stack/rods,/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"ed" = (/obj/item/weapon/material/shard,/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"ee" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/ce,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"ef" = (/obj/structure/curtain/open/bed{name = "Bunk One"},/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"eg" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/wood,/area/relay/bunks)
-"eh" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/wood,/area/relay/bunks)
-"ei" = (/obj/structure/curtain/open/bed{name = "Bunk Eight"},/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"ej" = (/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"ek" = (/turf/simulated/floor/plating,/area/relay/relay_outside)
-"el" = (/obj/structure/curtain/open/bed{name = "Bunk Two"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"em" = (/obj/structure/curtain/open/bed{name = "Bunk Three"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"en" = (/obj/structure/girder,/turf/simulated/floor/plating,/area/relay/bunks)
-"eo" = (/obj/structure/curtain/open/bed{name = "Bunk Four"},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"ep" = (/obj/structure/curtain/open/bed{name = "Bunk Five"},/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"eq" = (/obj/structure/curtain/open/bed{name = "Bunk Six"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet,/area/relay/bunks)
-"er" = (/obj/structure/curtain/open/bed{name = "Bunk Seven"},/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"es" = (/obj/structure/closet/cabinet,/obj/random/hat,/obj/random/snack,/obj/random/snack,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"et" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/hop,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"eu" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"ev" = (/turf/simulated/wall{damage = 20},/area/relay/relay_outside)
-"ew" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/relay_outside)
-"ex" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating{icon_state = "dmg1"},/area/relay/relay_outside)
-"ey" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/bunks)
-"ez" = (/obj/structure/bed/padded,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/bunks)
-"eA" = (/obj/structure/closet/cabinet,/obj/effect/decal/cleanable/dirt,/obj/random/shoes,/obj/random/clothing,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"eB" = (/obj/structure/bed/padded,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"eC" = (/obj/structure/table/woodentable,/obj/item/weapon/board,/obj/item/weapon/book/manual/engineering_guide,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"eD" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/rd,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet,/area/relay/bunks)
-"eE" = (/obj/structure/closet/cabinet,/obj/random/drinkbottle,/obj/random/drinkbottle,/obj/random/drinkbottle,/turf/simulated/floor/carpet,/area/relay/bunks)
-"eF" = (/obj/structure/closet/cabinet,/obj/random/accessory,/obj/random/medical/lite,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
-"eG" = (/obj/structure/flora/ausbushes/sparsegrass{step_x = 24; step_y = -4},/turf/simulated/floor/plating,/area/relay/relay_outside)
-"eH" = (/turf/simulated/wall{damage = 20},/area/relay/bunks)
-"eI" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 8; health = 1e+006},/obj/structure/window/reinforced{dir = 1; health = 1e+006},/obj/structure/window/reinforced,/turf/simulated/floor/plating,/area/relay/bunks)
-"eJ" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 1; health = 1e+006},/turf/simulated/floor/plating,/area/relay/bunks)
-"eK" = (/obj/structure/grille/broken,/obj/item/stack/rods,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating{icon_state = "dmg3"},/area/relay/relay_outside)
-"eL" = (/obj/item/stack/material/steel,/obj/structure/flora/ausbushes/leafybush{step_x = 19; step_y = -4},/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"eM" = (/obj/structure/grille/broken,/turf/simulated/floor/plating{icon_state = "dmg2"},/area/relay/relay_outside)
-"eN" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating{icon_state = "dmg4"},/area/relay/bunks)
-"eO" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 1; health = 1e+006},/turf/simulated/floor/plating,/area/relay/bunks)
-"eP" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 1; health = 1e+006},/obj/structure/window/reinforced{dir = 8; health = 1e+006},/turf/simulated/floor/plating,/area/relay/bunks)
-"eQ" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 1; health = 1e+006},/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/plating,/area/relay/bunks)
-"eR" = (/obj/structure/flora/ausbushes/ppflowers,/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"eS" = (/obj/structure/sign/relay,/turf/simulated/wall,/area/relay/relay_outside)
-"eT" = (/obj/structure/flora/ausbushes/pointybush,/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"eU" = (/obj/effect/overmap/sector/relay,/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"eV" = (/obj/structure/flora/ausbushes/fullgrass,/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"eW" = (/turf/simulated/wall,/area/relay/shuttle_storage_room)
-"eX" = (/obj/structure/flora/ausbushes/leafybush{step_x = 4; step_y = 6},/turf/simulated/floor/plating,/area/relay/relay_outside)
-"eY" = (/obj/structure/flora/ausbushes/palebush,/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"eZ" = (/obj/structure/closet/secure_closet/decktech,/turf/simulated/floor/tiled,/area/relay/shuttle_storage_room)
-"fa" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/shuttle_storage_room)
-"fb" = (/turf/simulated/floor/tiled,/area/relay/shuttle_storage_room)
-"fc" = (/obj/structure/table/rack,/obj/item/clothing/suit/storage/hazardvest/white,/obj/item/clothing/suit/storage/hazardvest/green,/obj/item/clothing/suit/storage/hazardvest/blue,/obj/item/device/flashlight,/turf/simulated/floor/tiled,/area/relay/shuttle_storage_room)
-"fd" = (/obj/structure/flora/ausbushes/leafybush,/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"fe" = (/turf/simulated/floor/plating,/area/relay/shuttle_storage_room)
-"ff" = (/obj/structure/flora/ausbushes/genericbush{step_x = -11; step_y = -46},/turf/simulated/floor/plating,/area/relay/relay_outside)
-"fg" = (/obj/effect/floor_decal/industrial/warning{dir = 9},/turf/simulated/floor/plating,/area/relay/relay_outside)
-"fh" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/plating,/area/relay/relay_outside)
-"fi" = (/obj/effect/floor_decal/industrial/warning{dir = 5},/turf/simulated/floor/plating,/area/relay/relay_outside)
-"fj" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 8},/turf/simulated/floor/plating,/area/relay/relay_outside)
-"fk" = (/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/plating,/area/relay/relay_outside)
-"fl" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/plating,/area/relay/relay_outside)
-"fm" = (/obj/structure/flora/ausbushes/reedbush{step_x = 0; step_y = 12},/turf/simulated/floor/plating,/area/relay/relay_outside)
-"fn" = (/obj/effect/floor_decal/industrial/hatch/orange,/turf/simulated/floor/plating,/area/relay/relay_outside)
-"fo" = (/turf/simulated/floor/plating{icon_state = "dmg1"},/area/relay/relay_outside)
-"fp" = (/obj/effect/floor_decal/industrial/hatch/red,/turf/simulated/floor/plating,/area/relay/relay_outside)
-"fq" = (/obj/effect/floor_decal/industrial/warning{dir = 10},/turf/simulated/floor/plating,/area/relay/relay_outside)
-"fr" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/plating,/area/relay/relay_outside)
-"fs" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 6},/turf/simulated/floor/plating,/area/relay/relay_outside)
-"ft" = (/turf/simulated/floor/plating{icon_state = "dmg4"},/area/relay/relay_outside)
-"fu" = (/turf/simulated/floor/plating{icon_state = "dmg2"},/area/relay/relay_outside)
-"fv" = (/turf/simulated/floor/plating{icon_state = "dmg3"},/area/relay/relay_outside)
-"fw" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/plating{icon_state = "dmg4"},/area/relay/relay_outside)
-"fx" = (/obj/structure/flora/ausbushes/stalkybush,/turf/simulated/floor/relay/grass,/area/relay/relay_outside)
-"fy" = (/obj/effect/landmark/random_gen/asteroid,/turf/unsimulated/mineral,/area/relay/relay_outside)
+"aa" = (/turf/unsimulated/mineral,/area/mine/unexplored)
+"ab" = (/turf/unsimulated/mask,/area/mine/unexplored)
+"ac" = (/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"ad" = (/obj/structure/flora/ausbushes/genericbush,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"ae" = (/obj/structure/flora/ausbushes/pointybush,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"af" = (/turf/unsimulated/floor/relay/grass,/area/relay/outside/radio_field)
+"ag" = (/obj/structure/flora/ausbushes/brflowers,/turf/unsimulated/floor/relay/grass,/area/relay/outside/radio_field)
+"ah" = (/obj/machinery/telecomms/broadcaster/preset_cent,/turf/unsimulated/floor/relay/grass,/area/relay/outside/radio_field)
+"ai" = (/obj/machinery/telecomms/receiver,/turf/unsimulated/floor/relay/grass,/area/relay/outside/radio_field)
+"aj" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"ak" = (/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"al" = (/obj/structure/flora/ausbushes/brflowers,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"am" = (/turf/simulated/wall,/area/relay/outside/radio_field)
+"an" = (/obj/machinery/power/apc/derelict{dir = 1},/obj/structure/cable{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"ao" = (/obj/structure/sign/warning/radio_frequency{pixel_y = 32},/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"ap" = (/obj/item/modular_computer/telescreen/preset/generic{pixel_y = 32},/obj/structure/cable/orange{icon_state = "1-2"; dir = 1},/obj/machinery/power/terminal{dir = 1},/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"aq" = (/obj/structure/relay/radio_tower,/turf/unsimulated/floor/relay/grass,/area/relay/outside/radio_field)
+"ar" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"as" = (/obj/structure/cable/orange{icon_state = "1-2"; dir = 1},/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"at" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"au" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/plating{icon_state = "dmg2"},/area/relay/outside/radio_field)
+"av" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"aw" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"ax" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"ay" = (/obj/structure/flora/ausbushes/palebush,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"az" = (/obj/structure/cable/orange{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"aA" = (/obj/structure/cable/orange{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"aB" = (/obj/structure/cable/orange{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/relay/outside/radio_field)
+"aC" = (/obj/structure/cable/orange{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating{icon_state = "dmg4"},/area/relay/outside/radio_field)
+"aD" = (/obj/structure/cable/orange{icon_state = "1-4"; dir = 4},/turf/simulated/floor/plating{icon_state = "dmg1"},/area/relay/outside/radio_field)
+"aE" = (/obj/structure/flora/ausbushes/ppflowers{pixel_x = 10; pixel_y = 16},/turf/unsimulated/floor/relay/grass,/area/relay/outside/radio_field)
+"aF" = (/obj/structure/flora/ausbushes/fullgrass,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"aG" = (/obj/structure/flora/ausbushes,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"aH" = (/obj/structure/flora/bush,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"aI" = (/turf/unsimulated/floor/relay/grass,/area/relay/telecom)
+"aJ" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/telecom)
+"aK" = (/obj/structure/cable/orange{icon_state = "1-2"; dir = 1},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/telecom)
+"aL" = (/turf/simulated/wall,/area/relay/telecom)
+"aM" = (/obj/machinery/door/airlock/external/bolted{name = "Antenna Field Access"; req_access = list(1)},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/telecom)
+"aN" = (/obj/machinery/door/airlock/external/bolted{name = "Antenna Field Access"; req_access = list(1)},/obj/structure/cable/orange{icon_state = "1-2"; dir = 1},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/telecom)
+"aO" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/telecom)
+"aP" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light/small{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/telecom)
+"aQ" = (/obj/structure/cable/orange{icon_state = "1-2"; dir = 1},/obj/machinery/light/small{icon_state = "bulb1"; dir = 4},/turf/simulated/floor/plating,/area/relay/telecom)
+"aR" = (/obj/machinery/door/airlock/external/bolted{name = "Antenna Field Access"; req_access = list(1)},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"aS" = (/obj/machinery/door/airlock/external/bolted{name = "Antenna Field Access"; req_access = list(1)},/obj/structure/catwalk,/obj/structure/cable/orange{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/relay/telecom)
+"aT" = (/turf/simulated/wall,/area/relay/telecom/secure)
+"aU" = (/turf/simulated/wall,/area/relay/dining)
+"aV" = (/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor/plating,/area/relay/dining)
+"aW" = (/turf/simulated/wall,/area/relay/kitchen)
+"aX" = (/turf/simulated/wall,/area/relay/engineering)
+"aY" = (/obj/structure/flora/ausbushes/ppflowers,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"aZ" = (/obj/machinery/space_heater,/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/floor/tiled/dark,/area/relay/telecom)
+"ba" = (/obj/structure/sign/warning/radio_frequency{pixel_y = 32},/turf/simulated/floor/tiled/dark,/area/relay/telecom)
+"bb" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"bc" = (/obj/structure/cable/orange{icon_state = "1-2"; dir = 1},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"bd" = (/turf/simulated/floor/tiled/dark,/area/relay/telecom)
+"be" = (/obj/machinery/light{icon_state = "tube1"; dir = 1},/turf/simulated/floor/tiled/dark,/area/relay/telecom)
+"bf" = (/obj/effect/floor_decal/corner/red/three_quarters{dir = 8},/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"bg" = (/obj/effect/floor_decal/corner/red{dir = 1},/obj/effect/floor_decal/corner/red{dir = 4},/obj/structure/closet/secure_closet/guncabinet/sidearm/small{req_one_access = newlist()},/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"bh" = (/obj/effect/floor_decal/corner/red{dir = 1},/obj/effect/floor_decal/corner/red{dir = 4},/obj/random/closet,/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"bi" = (/obj/effect/floor_decal/corner/red/three_quarters{dir = 1},/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"bj" = (/obj/machinery/vending/fitness,/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
+"bk" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/dining)
+"bl" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/relay/dining)
+"bm" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
+"bn" = (/obj/structure/closet/secure_closet/freezer/fridge,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
+"bo" = (/obj/structure/closet/crate/freezer/rations,/obj/random/snack,/obj/random/snack,/obj/item/pizzabox/margherita,/obj/item/weapon/reagent_containers/food/snacks/baguette,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
+"bp" = (/obj/structure/closet/crate/freezer,/obj/machinery/power/apc/derelict{dir = 1},/obj/structure/cable{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
+"bq" = (/obj/structure/closet/chefcloset,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
+"br" = (/turf/simulated/floor/plating,/area/relay/engineering)
+"bs" = (/obj/machinery/light_construct{dir = 1},/turf/simulated/floor/plating,/area/relay/engineering)
+"bt" = (/obj/structure/table/rack,/obj/random/powercell,/obj/random/loot,/obj/random/loot,/turf/simulated/floor/plating,/area/relay/engineering)
+"bu" = (/obj/structure/table/rack,/obj/random/tank,/obj/random/toolbox,/obj/random/toolbox,/obj/random/material,/turf/simulated/floor/plating,/area/relay/engineering)
+"bv" = (/obj/random/closet,/turf/simulated/floor/plating,/area/relay/engineering)
+"bw" = (/obj/machinery/alarm/server{dir = 4; pixel_x = -22; pixel_y = 0; req_one_access = list(24,11)},/turf/simulated/floor/tiled/dark,/area/relay/telecom)
+"bx" = (/obj/machinery/telecomms/server{id = "plinerelay"; network = "plinerelay"},/turf/simulated/floor/bluegrid,/area/relay/telecom)
+"by" = (/obj/machinery/telecomms/processor{id = "plinerelay"; network = "plinerelay"},/turf/simulated/floor/bluegrid,/area/relay/telecom)
+"bz" = (/obj/machinery/constructable_frame/machine_frame,/turf/simulated/floor/bluegrid,/area/relay/telecom)
+"bA" = (/obj/machinery/telecomms/hub{id = "plinerelay"; network = "plinerelay"},/turf/simulated/floor/bluegrid,/area/relay/telecom)
+"bB" = (/obj/structure/window/reinforced,/obj/effect/floor_decal/corner/red{dir = 1},/obj/effect/floor_decal/corner/red{dir = 8},/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"bC" = (/obj/structure/window/reinforced,/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"bD" = (/obj/machinery/door/window/southright{name = "Secure Storage"},/obj/effect/floor_decal/corner/red,/obj/effect/floor_decal/corner/red{dir = 4},/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"bE" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
+"bF" = (/obj/item/weapon/stool/padded,/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
+"bG" = (/obj/item/weapon/stool/padded,/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
+"bH" = (/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
+"bI" = (/obj/machinery/door/airlock/science{name = "Kitchen"},/turf/simulated/floor/tiled,/area/relay/kitchen)
+"bJ" = (/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
+"bK" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
+"bL" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 4},/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
+"bM" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/engineering)
+"bN" = (/obj/structure/table/rack,/obj/item/weapon/stock_parts/subspace/amplifier,/obj/item/weapon/stock_parts/subspace/transmitter,/obj/item/weapon/stock_parts/subspace/transmitter,/obj/item/weapon/stock_parts/subspace/transmitter,/obj/item/weapon/stock_parts/console_screen,/obj/item/weapon/stock_parts/capacitor/adv,/turf/simulated/floor/plating,/area/relay/engineering)
+"bO" = (/obj/structure/table/rack,/obj/random/medical,/obj/random/advdevice,/obj/random/advdevice,/obj/random/firstaid,/turf/simulated/floor/plating,/area/relay/engineering)
+"bP" = (/obj/machinery/button/remote/blast_door{id = "away_relay_warehouse_exterior"; name = "Shutter Switch"; pixel_x = 25},/turf/simulated/floor/plating,/area/relay/engineering)
+"bQ" = (/obj/machinery/button/remote/blast_door{id = "away_relay_warehouse_exterior"; name = "Shutter Switch"; pixel_x = -25},/turf/unsimulated/floor/relay/grass,/area/relay/engineering)
+"bR" = (/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/floor/tiled/dark,/area/relay/telecom)
+"bS" = (/obj/machinery/constructable_frame/machine_frame,/obj/item/stack/cable_coil/random,/turf/simulated/floor/bluegrid,/area/relay/telecom)
+"bT" = (/obj/machinery/constructable_frame/machine_frame,/obj/item/weapon/stock_parts/subspace/treatment,/turf/simulated/floor/bluegrid,/area/relay/telecom)
+"bU" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/dark,/area/relay/telecom)
+"bV" = (/obj/structure/filingcabinet/filingcabinet,/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"bW" = (/obj/structure/bed/chair/wood,/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"bX" = (/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"bY" = (/obj/effect/floor_decal/corner/red,/obj/effect/floor_decal/corner/red{dir = 4},/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"bZ" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/machinery/recharger,/turf/simulated/floor/tiled,/area/relay/dining)
+"ca" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/item/weapon/stool/padded,/turf/simulated/floor/tiled,/area/relay/dining)
+"cb" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/random/trash,/turf/simulated/floor/tiled,/area/relay/dining)
+"cc" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/random/snack{pixel_x = 7; pixel_y = 6},/obj/random/snack{pixel_x = 0; pixel_y = 0},/obj/random/drinkbottle,/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
+"cd" = (/obj/structure/sink{icon_state = "sink"; dir = 8; pixel_x = -12; pixel_y = 2},/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
+"ce" = (/obj/structure/table/steel,/obj/machinery/reagentgrinder,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
+"cf" = (/obj/machinery/light_construct{dir = 8},/turf/simulated/floor/plating,/area/relay/engineering)
+"cg" = (/obj/item/stack/cable_coil/single,/turf/simulated/floor/plating,/area/relay/engineering)
+"ch" = (/obj/effect/decal/cleanable/dirt,/obj/random/junk,/turf/simulated/floor/plating,/area/relay/engineering)
+"ci" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/industrial/loading{icon_state = "loadingarea"; dir = 8},/turf/simulated/floor/plating,/area/relay/engineering)
+"cj" = (/obj/machinery/door/blast/shutters{dir = 8; id = "away_relay_warehouse_exterior"; name = "Exterior Engineering Shutters"},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/plating,/area/relay/engineering)
+"ck" = (/turf/unsimulated/floor/relay/grass,/area/relay/engineering)
+"cl" = (/obj/structure/table/standard,/obj/item/weapon/stock_parts/subspace/filter,/turf/simulated/floor/tiled/dark,/area/relay/telecom)
+"cm" = (/obj/structure/cable/orange{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/obj/item/stack/cable_coil/orange{pixel_x = -8; pixel_y = 4},/turf/simulated/floor/plating,/area/relay/telecom)
+"cn" = (/obj/structure/filingcabinet/filingcabinet,/obj/effect/floor_decal/corner/red/three_quarters,/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"co" = (/obj/structure/table/steel,/obj/effect/floor_decal/corner/red,/obj/effect/floor_decal/corner/red{dir = 8},/obj/machinery/light/small,/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"cp" = (/obj/effect/floor_decal/corner/red,/obj/effect/floor_decal/corner/red{dir = 8},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"cq" = (/obj/effect/floor_decal/corner/red/three_quarters{dir = 4},/obj/machinery/power/apc/derelict{dir = 4},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"cr" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/machinery/power/apc/derelict{dir = 8},/obj/structure/cable{d2 = 1; icon_state = "0-4"},/turf/simulated/floor/tiled,/area/relay/dining)
+"cs" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/simulated/floor/tiled,/area/relay/dining)
+"ct" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/relay/dining)
+"cu" = (/obj/item/weapon/stool/padded,/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/relay/dining)
+"cv" = (/obj/item/weapon/stool/padded,/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/relay/dining)
+"cw" = (/obj/item/weapon/stool/padded,/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/dining)
+"cx" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled/dark,/area/relay/kitchen)
+"cy" = (/obj/structure/table/steel,/obj/machinery/microwave,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
+"cz" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/relay/engineering)
+"cA" = (/obj/random/junk,/turf/simulated/floor/plating,/area/relay/engineering)
+"cB" = (/obj/structure/table/standard,/obj/item/weapon/stock_parts/subspace/crystal{pixel_x = 5; pixel_y = 4},/obj/item/weapon/stock_parts/subspace/crystal,/turf/simulated/floor/tiled/dark,/area/relay/telecom)
+"cC" = (/obj/structure/cable/orange{icon_state = "1-2"; dir = 1},/obj/structure/cable/orange{icon_state = "1-4"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"cD" = (/obj/structure/cable/orange{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"cE" = (/obj/structure/cable/orange{icon_state = "1-4"; dir = 4},/obj/structure/cable/orange{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"cF" = (/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"cG" = (/obj/machinery/telecomms/relay{id = "plinerelay"; network = "plinerelay"},/turf/simulated/floor/bluegrid,/area/relay/telecom)
+"cH" = (/obj/structure/sign/warning/secure_area,/turf/simulated/wall,/area/relay/telecom/secure)
+"cI" = (/obj/machinery/door/airlock/vault/bolted{name = "Secure Data"; req_access = list(1)},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/dark,/area/relay/telecom/secure)
+"cJ" = (/obj/machinery/vending/cola{name = "hacked Robust Softdrinks"; prices = list()},/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
+"cK" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/machinery/light,/turf/simulated/floor/tiled,/area/relay/dining)
+"cL" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/relay/dining)
+"cM" = (/obj/random/junk,/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/corner/paleblue/diagonal,/turf/simulated/floor/tiled,/area/relay/dining)
+"cN" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
+"cO" = (/obj/structure/table/steel,/obj/item/weapon/material/kitchen/rollingpin,/turf/simulated/floor/tiled/freezer,/area/relay/kitchen)
+"cP" = (/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/industrial/warning/dust/corner,/obj/machinery/power/apc/derelict{dir = 8},/obj/structure/cable{icon_state = "0-4"; d2 = 4},/turf/simulated/floor/plating,/area/relay/engineering)
+"cQ" = (/obj/effect/floor_decal/industrial/warning/dust,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/relay/engineering)
+"cR" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/industrial/warning/dust,/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/relay/engineering)
+"cS" = (/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 8},/turf/simulated/floor/plating,/area/relay/engineering)
+"cT" = (/obj/effect/floor_decal/industrial/warning/dust/corner,/turf/simulated/floor/plating,/area/relay/engineering)
+"cU" = (/obj/effect/floor_decal/industrial/warning/dust,/turf/simulated/floor/plating,/area/relay/engineering)
+"cV" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/button/remote/blast_door{id = "away_relay_warehouse_interior"; name = "Shutter Switch"; pixel_x = 0; pixel_y = -25},/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 8},/turf/simulated/floor/plating,/area/relay/engineering)
+"cW" = (/obj/machinery/light_construct,/turf/simulated/floor/plating,/area/relay/engineering)
+"cX" = (/obj/structure/largecrate,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"cY" = (/obj/structure/table/standard,/turf/simulated/floor/tiled/dark,/area/relay/telecom)
+"cZ" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"da" = (/obj/structure/cable/orange{icon_state = "1-2"; dir = 1},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"db" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"dc" = (/obj/structure/cable/orange{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"dd" = (/obj/machinery/telecomms/bus{id = "plinerelay"; network = "plinerelay"},/turf/simulated/floor/bluegrid,/area/relay/telecom)
+"de" = (/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor/plating,/area/relay/telecom)
+"df" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"dg" = (/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"dh" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"di" = (/obj/effect/floor_decal/industrial/warning/dust/corner,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"dj" = (/turf/simulated/wall,/area/relay/telecom/control_room)
+"dk" = (/obj/machinery/door/airlock/glass_virology{name = "Dining Hall"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/relay/dining)
+"dl" = (/obj/machinery/door/airlock/glass_virology{name = "Dining Hall"},/turf/simulated/floor/tiled,/area/relay/dining)
+"dm" = (/obj/machinery/door/airlock/science{name = "Kitchen"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/relay/kitchen)
+"dn" = (/obj/structure/sign/warning/high_voltage,/turf/simulated/wall,/area/relay/engineering)
+"do" = (/obj/machinery/door/airlock/glass_engineering{name = "Engineering"; req_access = list(1)},/turf/simulated/floor/plating,/area/relay/engineering)
+"dp" = (/obj/machinery/door/airlock/glass_engineering{name = "Engineering"; req_access = list(1)},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/relay/engineering)
+"dq" = (/obj/machinery/door/blast/shutters{dir = 2; id = "away_relay_warehouse_interior"; name = "Engineering Shutters"},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/plating,/area/relay/engineering)
+"dr" = (/turf/simulated/wall,/area/relay/main_hallway)
+"ds" = (/obj/item/weapon/stock_parts/capacitor{pixel_x = 31; pixel_y = 1},/turf/simulated/wall,/area/relay/telecom)
+"dt" = (/obj/structure/table/standard,/obj/item/weapon/stock_parts/capacitor{pixel_x = 4; pixel_y = 5},/turf/simulated/floor/tiled/dark,/area/relay/telecom)
+"du" = (/obj/item/weapon/screwdriver{pixel_x = 21; pixel_y = 1},/turf/simulated/floor/tiled/dark,/area/relay/telecom)
+"dv" = (/obj/structure/cable/orange{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"dw" = (/obj/item/stack/cable_coil/single{pixel_x = 5; pixel_y = 5},/turf/simulated/floor/tiled/dark,/area/relay/telecom)
+"dx" = (/obj/item/modular_computer/console,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"dy" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"dz" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 4; icon_state = "warning_dust"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"dA" = (/obj/machinery/door/airlock/highsecurity{name = "Telecommunications"; req_access = list(1)},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"dB" = (/obj/structure/sign/warning/server_room{pixel_y = 32},/obj/effect/floor_decal/industrial/warning/dust{icon_state = "warning_dust"; dir = 8},/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"dC" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"dD" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/machinery/light{dir = 1},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"dE" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"dF" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"dG" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
+"dH" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
+"dI" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/alarm{pixel_y = 24},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
+"dJ" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
+"dK" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/light{dir = 1},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
+"dL" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 4},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
+"dM" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
+"dN" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
+"dO" = (/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
+"dP" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"dQ" = (/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 4},/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"dR" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"dS" = (/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"dT" = (/obj/machinery/button/remote/blast_door{id = "away_relay_warehouse_interior"; name = "Shutter Switch"; pixel_x = 0; pixel_y = 25},/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 1},/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"dU" = (/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"dV" = (/obj/structure/bed/chair/comfy/green{dir = 4},/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"dW" = (/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor/plating,/area/relay/main_hallway)
+"dX" = (/obj/structure/flora/ausbushes/sunnybush,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"dY" = (/obj/machinery/constructable_frame/machine_frame,/obj/item/stack/cable_coil/cut,/turf/simulated/floor/bluegrid,/area/relay/telecom)
+"dZ" = (/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"ea" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 4; icon_state = "warning_dust"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"eb" = (/obj/machinery/door/airlock/highsecurity{name = "Telecommunications"; req_access = list(1)},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"ec" = (/obj/structure/sign/warning/server_room{pixel_y = -32},/obj/effect/floor_decal/industrial/warning/dust{icon_state = "warning_dust"; dir = 8},/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"ed" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"ee" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/main_hallway)
+"ef" = (/obj/machinery/power/apc/derelict,/obj/structure/cable,/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
+"eg" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
+"eh" = (/obj/structure/catwalk,/obj/structure/extinguisher_cabinet{pixel_y = -32},/turf/simulated/floor/plating,/area/relay/main_hallway)
+"ei" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/main_hallway)
+"ej" = (/obj/machinery/power/apc/derelict{dir = 8},/obj/structure/catwalk,/obj/structure/cable{d1 = 2; d2 = 0; dir = 4; icon_state = "0-2"; pixel_y = 0},/turf/simulated/floor/plating,/area/relay/telecom)
+"ek" = (/obj/structure/catwalk,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/plating,/area/relay/telecom)
+"el" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{icon_state = "1-8"; dir = 4; pixel_y = 0; d1 = 16; d2 = 0},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"em" = (/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 4},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"en" = (/turf/simulated/wall,/area/relay/foyer)
+"eo" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/airlock/glass_command{name = "Checkpoint"; req_access = list(1)},/turf/simulated/floor/tiled,/area/relay/foyer)
+"ep" = (/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor/plating,/area/relay/foyer)
+"eq" = (/obj/machinery/door/airlock/glass_virology{name = "Relay Station Interior"},/turf/simulated/floor/tiled,/area/relay/foyer)
+"er" = (/obj/machinery/door/airlock/maintenance{name = "Storage Room"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/relay/main_hallway)
+"es" = (/turf/simulated/wall,/area/relay/bunks)
+"et" = (/obj/machinery/door/airlock{name = "Bunks"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/wood,/area/relay/bunks)
+"eu" = (/obj/machinery/door/airlock{name = "Bunks"},/turf/simulated/floor/wood,/area/relay/bunks)
+"ev" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"ew" = (/obj/machinery/power/apc/derelict{dir = 4},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"ex" = (/obj/effect/floor_decal/corner/blue/diagonal,/obj/structure/filingcabinet/filingcabinet,/obj/item/weapon/paper/relay/welcome_note,/turf/simulated/floor/tiled,/area/relay/foyer)
+"ey" = (/obj/effect/floor_decal/corner/blue/diagonal,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
+"ez" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/corner/blue/diagonal,/turf/simulated/floor/tiled,/area/relay/foyer)
+"eA" = (/obj/structure/table/standard,/obj/item/clothing/head/bowlerhat{pixel_x = 0; pixel_y = 0},/obj/structure/noticeboard{pixel_y = 32},/turf/simulated/floor/tiled/dark,/area/relay/foyer)
+"eB" = (/obj/effect/floor_decal/corner/green{dir = 1},/turf/simulated/floor/tiled,/area/relay/foyer)
+"eC" = (/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/corner/green{dir = 1},/turf/simulated/floor/tiled,/area/relay/foyer)
+"eD" = (/obj/effect/floor_decal/corner/green{dir = 1},/obj/machinery/light{icon_state = "tube1"; dir = 1},/turf/simulated/floor/tiled,/area/relay/foyer)
+"eE" = (/obj/structure/sign/relay/group_picture,/turf/simulated/wall,/area/relay/foyer)
+"eF" = (/obj/structure/table/rack,/obj/random/maintenance,/obj/random/maintenance,/turf/simulated/floor/plating,/area/relay/storage)
+"eG" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating,/area/relay/storage)
+"eH" = (/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/plating,/area/relay/storage)
+"eI" = (/obj/structure/table/rack,/turf/simulated/floor/plating,/area/relay/storage)
+"eJ" = (/obj/structure/bookcase,/turf/simulated/floor/wood,/area/relay/bunks)
+"eK" = (/obj/machinery/power/apc/derelict{dir = 1},/obj/structure/cable{d2 = 1; icon_state = "0-4"},/turf/simulated/floor/wood,/area/relay/bunks)
+"eL" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/wood,/area/relay/bunks)
+"eM" = (/obj/structure/bed/chair/comfy/beige,/turf/simulated/floor/wood,/area/relay/bunks)
+"eN" = (/obj/machinery/shower{dir = 4; icon_state = "shower"; pixel_x = 0; pixel_y = 0},/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"eO" = (/obj/machinery/shower{dir = 8; icon_state = "shower"; pixel_x = 0; pixel_y = 0},/obj/random/soap,/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"eP" = (/obj/structure/toilet,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"eQ" = (/obj/structure/toilet,/obj/machinery/light/small{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"eR" = (/turf/simulated/floor/wood,/area/relay/bunks)
+"eS" = (/obj/structure/closet/cabinet,/obj/random/handgun,/obj/random/ammo,/obj/random/cash,/obj/random/cash,/obj/random/plushie,/turf/simulated/floor/carpet/blue2,/area/relay/bunks)
+"eT" = (/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor/plating,/area/relay/bunks)
+"eU" = (/obj/machinery/door/airlock/multi_tile/glass{name = "Server Room Entrance"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/relay/telecom)
+"eV" = (/obj/machinery/power/apc/derelict{dir = 8},/obj/structure/cable{icon_state = "0-4"; d2 = 4},/obj/effect/floor_decal/corner/blue/diagonal,/turf/simulated/floor/tiled,/area/relay/foyer)
+"eW" = (/obj/effect/floor_decal/corner/blue/diagonal,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/relay/foyer)
+"eX" = (/obj/structure/bed/chair/office/dark{dir = 4},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/corner/blue/diagonal,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
+"eY" = (/obj/structure/table/standard,/obj/item/modular_computer/laptop,/turf/simulated/floor/tiled/dark,/area/relay/foyer)
+"eZ" = (/turf/simulated/floor/tiled,/area/relay/foyer)
+"fa" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
+"fb" = (/obj/structure/bed/chair{dir = 8},/turf/simulated/floor/tiled,/area/relay/foyer)
+"fc" = (/obj/structure/bed/chair{dir = 4},/turf/simulated/floor/tiled,/area/relay/foyer)
+"fd" = (/obj/effect/decal/cleanable/generic,/obj/item/trash/pistachios,/turf/simulated/floor/tiled,/area/relay/foyer)
+"fe" = (/obj/machinery/vending/snack,/turf/simulated/floor/tiled,/area/relay/foyer)
+"ff" = (/obj/structure/table/rack,/obj/random/junk,/obj/random/loot,/turf/simulated/floor/plating,/area/relay/storage)
+"fg" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating{icon_state = "dmg4"},/area/relay/storage)
+"fh" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/storage)
+"fi" = (/obj/structure/table/rack,/obj/random/gloves,/obj/random/gloves,/turf/simulated/floor/plating,/area/relay/storage)
+"fj" = (/obj/structure/bookcase/manuals/engineering,/turf/simulated/floor/wood,/area/relay/bunks)
+"fk" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 4},/turf/simulated/floor/wood,/area/relay/bunks)
+"fl" = (/obj/machinery/shower{dir = 8; icon_state = "shower"; pixel_x = 0; pixel_y = 0},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"fm" = (/obj/structure/curtain/open,/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"fn" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/captain,/turf/simulated/floor/carpet/blue2,/area/relay/bunks)
+"fo" = (/obj/structure/flora/ausbushes/leafybush,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"fp" = (/obj/structure/table/rack,/obj/random/technology_scanner,/obj/random/tool,/obj/random/powercell,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fq" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fr" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/obj/structure/cable/orange{icon_state = "1-4"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fs" = (/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 1},/obj/structure/cable/orange{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"ft" = (/obj/structure/cable/orange{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fu" = (/obj/item/modular_computer/console,/obj/structure/cable/orange{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fv" = (/obj/machinery/computer/telecomms/server{network = "plinerelay"},/obj/structure/cable/orange{icon_state = "0-1"; dir = 4},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fw" = (/obj/structure/cable{icon_state = "1-10"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fx" = (/obj/machinery/papershredder,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fy" = (/obj/machinery/light/small{dir = 8},/obj/effect/floor_decal/corner/blue/diagonal,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
+"fz" = (/obj/effect/floor_decal/corner/blue/diagonal,/turf/simulated/floor/tiled,/area/relay/foyer)
+"fA" = (/obj/effect/decal/cleanable/blood/drip,/obj/effect/floor_decal/corner/blue/diagonal,/obj/effect/decal/cleanable/dirt,/obj/item/weapon/pen{pixel_x = 27; pixel_y = 4},/turf/simulated/floor/tiled,/area/relay/foyer)
+"fB" = (/obj/structure/table/standard,/obj/item/weapon/paper_bin,/turf/simulated/floor/tiled/dark,/area/relay/foyer)
+"fC" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
+"fD" = (/obj/structure/bed/chair{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
+"fE" = (/obj/structure/bed/chair{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
+"fF" = (/obj/machinery/vending/coffee,/turf/simulated/floor/tiled,/area/relay/foyer)
+"fG" = (/turf/simulated/floor/plating,/area/relay/storage)
+"fH" = (/obj/machinery/light/small,/turf/simulated/floor/plating,/area/relay/storage)
+"fI" = (/obj/structure/table/rack,/obj/random/material,/obj/random/material,/turf/simulated/floor/plating,/area/relay/storage)
+"fJ" = (/obj/structure/bookcase/manuals/medical,/turf/simulated/floor/wood,/area/relay/bunks)
+"fK" = (/obj/machinery/light/small,/turf/simulated/floor/wood,/area/relay/bunks)
+"fL" = (/obj/structure/bed/chair/office/dark{dir = 4},/turf/simulated/floor/wood,/area/relay/bunks)
+"fM" = (/obj/item/modular_computer/console,/turf/simulated/floor/wood,/area/relay/bunks)
+"fN" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"fO" = (/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"fP" = (/obj/structure/sink{dir = 4; icon_state = "sink"; pixel_x = 11; pixel_y = 0},/obj/structure/mirror{pixel_x = 32},/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"fQ" = (/obj/structure/curtain/open/bed{name = "Bunk Nine"},/turf/simulated/floor/carpet/blue2,/area/relay/bunks)
+"fR" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue2,/area/relay/bunks)
+"fS" = (/obj/structure/table/rack,/obj/item/clothing/suit/storage/hooded/wintercoat/science,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fT" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fU" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fV" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/obj/structure/bed/chair/office/dark{dir = 1},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fW" = (/obj/structure/cable{icon_state = "5-8"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fX" = (/obj/machinery/photocopier,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"fY" = (/obj/structure/table/rack,/obj/effect/floor_decal/corner/blue/diagonal,/obj/item/clothing/suit/storage/hooded/wintercoat,/turf/simulated/floor/tiled,/area/relay/foyer)
+"fZ" = (/obj/effect/floor_decal/corner/blue/diagonal,/obj/structure/table/rack,/obj/item/weapon/clipboard,/obj/random/advdevice,/obj/random/maintenance,/turf/simulated/floor/tiled,/area/relay/foyer)
+"ga" = (/obj/structure/table/standard,/turf/simulated/floor/tiled/dark,/area/relay/foyer)
+"gb" = (/obj/effect/floor_decal/corner/green,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
+"gc" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/foyer)
+"gd" = (/obj/effect/floor_decal/corner/green,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
+"ge" = (/obj/effect/floor_decal/corner/green,/obj/machinery/light_construct,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
+"gf" = (/obj/machinery/newscaster,/turf/simulated/wall,/area/relay/foyer)
+"gg" = (/obj/effect/decal/cleanable/dirt,/obj/random/closet,/turf/simulated/floor/plating,/area/relay/storage)
+"gh" = (/obj/random/closet,/turf/simulated/floor/plating,/area/relay/storage)
+"gi" = (/turf/simulated/wall,/area/relay/storage)
+"gj" = (/obj/structure/sign/relay/group_picture,/turf/simulated/wall,/area/relay/bunks)
+"gk" = (/obj/structure/curtain/open/shower,/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"gl" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"gm" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"gn" = (/obj/structure/sink{dir = 4; icon_state = "sink"; pixel_x = 11; pixel_y = 0},/obj/structure/mirror{icon_state = "mirror_broke"; pixel_x = 32; pixel_y = 0},/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"go" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor/wood,/area/relay/bunks)
+"gp" = (/obj/structure/bed/chair/office/dark,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"gq" = (/obj/structure/filingcabinet/filingcabinet,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"gr" = (/obj/effect/wingrille_spawn/reinforced,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/foyer)
+"gs" = (/obj/machinery/door/airlock/glass_virology{name = "Relay Station Entrance"},/obj/machinery/door/firedoor/multi_tile,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
+"gt" = (/obj/machinery/door/airlock/glass_virology{emagged = 1; name = "Relay Station Entrance"; panel_open = 1},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
+"gu" = (/obj/structure/window/reinforced{dir = 4},/obj/item/weapon/material/shard,/obj/item/stack/rods,/obj/structure/grille/broken,/turf/simulated/floor/plating,/area/relay/foyer)
+"gv" = (/turf/simulated/wall{damage = 20},/area/relay/foyer)
+"gw" = (/obj/structure/table/woodentable,/obj/item/weapon/board,/obj/item/weapon/book/manual/engineering_guide,/obj/item/clothing/suit/storage/hooded/wintercoat/engineering/atmos{desc = "A heavy jacket made from 'synthetic' animal furs. There is a label on the back, showing that it belongs to Chief Engineer Mary Praday."},/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"gx" = (/obj/structure/undies_wardrobe,/turf/simulated/floor/wood,/area/relay/bunks)
+"gy" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/wood,/area/relay/bunks)
+"gz" = (/obj/structure/closet/wardrobe/green,/obj/random/plushie,/turf/simulated/floor/wood,/area/relay/bunks)
+"gA" = (/obj/structure/closet/wardrobe/pjs,/obj/random/clothing,/turf/simulated/floor/wood,/area/relay/bunks)
+"gB" = (/obj/machinery/door/airlock{name = "Restroom"},/turf/simulated/floor/tiled/white,/area/relay/bunks)
+"gC" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/blue,/obj/item/clothing/head/mailman,/obj/item/clothing/under/rank/mailman,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"gD" = (/obj/machinery/light,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"gE" = (/obj/structure/table/standard,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"gF" = (/obj/structure/table/standard,/obj/item/modular_computer/laptop,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"gG" = (/obj/structure/table/standard,/obj/item/weapon/pen{pixel_x = 27; pixel_y = 4},/obj/item/weapon/stamp{pixel_x = 8; pixel_y = 10},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"gH" = (/obj/structure/table/standard,/obj/item/weapon/paper_bin,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"gI" = (/obj/structure/filingcabinet/chestdrawer,/obj/structure/sign/warning/mail_delivery{pixel_w = 0; pixel_y = -32},/obj/machinery/light,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"gJ" = (/obj/structure/table/standard,/obj/machinery/photocopier/faxmachine,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"gK" = (/obj/structure/table/standard,/obj/random/snack,/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
+"gL" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"gM" = (/obj/item/stack/rods,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"gN" = (/obj/item/weapon/material/shard,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"gO" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/ce,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"gP" = (/obj/structure/curtain/open/bed{name = "Bunk One"},/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"gQ" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/wood,/area/relay/bunks)
+"gR" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/wood,/area/relay/bunks)
+"gS" = (/obj/structure/curtain/open/bed{name = "Bunk Eight"},/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"gT" = (/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"gU" = (/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"gV" = (/obj/structure/curtain/open/bed{name = "Bunk Two"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"gW" = (/obj/structure/curtain/open/bed{name = "Bunk Three"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"gX" = (/obj/structure/girder,/turf/simulated/floor/plating,/area/relay/bunks)
+"gY" = (/obj/structure/curtain/open/bed{name = "Bunk Four"},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"gZ" = (/obj/structure/curtain/open/bed{name = "Bunk Five"},/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"ha" = (/obj/structure/curtain/open/bed{name = "Bunk Six"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet,/area/relay/bunks)
+"hb" = (/obj/structure/curtain/open/bed{name = "Bunk Seven"},/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"hc" = (/obj/structure/closet/cabinet,/obj/random/hat,/obj/random/snack,/obj/random/snack,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"hd" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/hop,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"he" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"hf" = (/turf/simulated/wall{damage = 20},/area/relay/bunks)
+"hg" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"hh" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating{icon_state = "dmg1"},/area/relay/bunks)
+"hi" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/bunks)
+"hj" = (/obj/structure/bed/padded,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/relay/bunks)
+"hk" = (/obj/structure/closet/cabinet,/obj/effect/decal/cleanable/dirt,/obj/random/shoes,/obj/random/clothing,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"hl" = (/obj/structure/bed/padded,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"hm" = (/obj/structure/closet/cabinet,/obj/random/glasses,/obj/random/glasses,/obj/item/weapon/book/manual/engineering_hacking,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"hn" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/rd,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/carpet,/area/relay/bunks)
+"ho" = (/obj/structure/closet/cabinet,/obj/random/drinkbottle,/obj/random/drinkbottle,/obj/random/drinkbottle,/turf/simulated/floor/carpet,/area/relay/bunks)
+"hp" = (/obj/structure/bedsheetbin,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"hq" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/blue,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"hr" = (/obj/structure/closet/cabinet,/obj/random/accessory,/obj/random/medical/lite,/obj/random/medical/lite,/turf/simulated/floor/carpet/blue,/area/relay/bunks)
+"hs" = (/obj/structure/flora/ausbushes/sparsegrass{pixel_x = 24; pixel_y = -4},/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"ht" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 8; health = 1e+006},/obj/structure/window/reinforced{dir = 1; health = 1e+006},/obj/structure/window/reinforced,/turf/simulated/floor/plating,/area/relay/bunks)
+"hu" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 1; health = 1e+006},/turf/simulated/floor/plating,/area/relay/bunks)
+"hv" = (/obj/structure/grille/broken,/obj/item/stack/rods,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating{icon_state = "dmg3"},/area/relay/outside/relay_outside)
+"hw" = (/obj/item/stack/material/steel,/obj/structure/flora/ausbushes/leafybush{pixel_x = 19; pixel_y = -4},/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"hx" = (/obj/structure/grille/broken,/turf/simulated/floor/plating{icon_state = "dmg2"},/area/relay/outside/relay_outside)
+"hy" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating{icon_state = "dmg4"},/area/relay/bunks)
+"hz" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 1; health = 1e+006},/turf/simulated/floor/plating,/area/relay/bunks)
+"hA" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 1; health = 1e+006},/obj/structure/window/reinforced{dir = 8; health = 1e+006},/turf/simulated/floor/plating,/area/relay/bunks)
+"hB" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 1; health = 1e+006},/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/plating,/area/relay/bunks)
+"hC" = (/obj/structure/sign/relay,/turf/simulated/wall,/area/relay/outside/relay_outside)
+"hD" = (/obj/effect/overmap/sector/relay,/turf/unsimulated/floor/relay/grass,/area/relay/outside/relay_outside)
+"hE" = (/turf/simulated/wall,/area/relay/shuttle_storage_room)
+"hF" = (/obj/structure/flora/ausbushes/leafybush{pixel_x = 4; pixel_y = 6},/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hG" = (/obj/structure/closet/secure_closet/decktech,/turf/simulated/floor/tiled,/area/relay/shuttle_storage_room)
+"hH" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/shuttle_storage_room)
+"hI" = (/turf/simulated/floor/tiled,/area/relay/shuttle_storage_room)
+"hJ" = (/obj/structure/table/rack,/obj/item/clothing/suit/storage/hazardvest/white,/obj/item/clothing/suit/storage/hazardvest/green,/obj/item/clothing/suit/storage/hazardvest/blue,/obj/item/device/flashlight,/obj/item/clothing/suit/storage/hooded/wintercoat/cargo,/turf/simulated/floor/tiled,/area/relay/shuttle_storage_room)
+"hK" = (/turf/simulated/floor/plating,/area/relay/shuttle_storage_room)
+"hL" = (/obj/structure/flora/ausbushes/genericbush{pixel_x = -11; pixel_y = -46},/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hM" = (/obj/effect/floor_decal/industrial/warning{dir = 9},/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hN" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hO" = (/obj/effect/floor_decal/industrial/warning{dir = 5},/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hP" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 8},/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hQ" = (/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hR" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hS" = (/obj/structure/flora/ausbushes/reedbush{pixel_x = 0; pixel_y = 12},/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hT" = (/obj/effect/floor_decal/industrial/hatch/orange,/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hU" = (/turf/simulated/floor/plating{icon_state = "dmg1"},/area/relay/outside/relay_outside)
+"hV" = (/obj/effect/floor_decal/industrial/hatch/red,/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hW" = (/obj/effect/floor_decal/industrial/warning{dir = 10},/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hX" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hY" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 6},/turf/simulated/floor/plating,/area/relay/outside/relay_outside)
+"hZ" = (/turf/simulated/floor/plating{icon_state = "dmg4"},/area/relay/outside/relay_outside)
+"ia" = (/turf/simulated/floor/plating{icon_state = "dmg2"},/area/relay/outside/relay_outside)
+"ib" = (/turf/simulated/floor/plating{icon_state = "dmg3"},/area/relay/outside/relay_outside)
+"ic" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/plating{icon_state = "dmg4"},/area/relay/outside/relay_outside)
+"id" = (/obj/effect/landmark/random_gen/asteroid,/turf/unsimulated/mineral,/area/mine/unexplored)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadacacacacadadadadadadadadadadadadadadadadadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacabaa
-aaabacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacabaa
-aaabacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacabaa
-aaabacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacabaa
-aaabacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacabaa
-aaabacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeadadadadadadadadadacacacacacacacacabaa
-aaabacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadafagagagahahahahahahagagaiaiaiaiaiajajajajajajajajajajajajajajadadadadadadadadadadadadadacacacacacacacacabaa
-aaabacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadafagakalamanananananalanaiaoapaqarajasasatasasasauavatawawawajadadadadadadadadadadadadadacacacacacacacacabaa
-aaabacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadafagaxamanayazayayananaAaBaCaCaDaEajasasasasaFasaGaHasasasaIajaJadadadadadadadadaeadadadacacacacacacacacabaa
-aaabacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadafagaxanaKaxaLaMaxanananaiaNaCaDaOajaPasaQasasasaFasasaRaFaSaTaUadadadadadadadadadadadadacacacacacacacacabaa
-aaabacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadafagaVaWaXaYaZaybaanamanbbaCaCaDbcajasasbdasasbeasasasaFaFaSaTaUadadadadadadadadadadadadadacacacacacacacabaa
-aaabacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadafagbfbgamanbhbiananbganaiaCbjaDbkajblbmbnboasbpbqbqbrasbsasajaUadadadadadadadadadadadadadacacacacacacacabaa
-aaabacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadbtafagagagahahbubvahahagagaiaiaibwaiajbxbybzbxajajbAbAajajajajajbBbBbBbBbBadadadadadadadadadacacacacacacacabaa
-aaabacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadbCbDbEbFbGbHbIbIbJbIbIbIbKbLbMbNbMbObLbPbQbRbSbTbUbVbWbXbYbUbGbGbGbGbUbGbZcaadadadadcbadadadadacacacacacacacabaa
-aaabacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadbCbDbEccbGcdbGbGcebGbGbGbGcfcgcfchcfcfcicfcfcjcfbGbGcebGbGbGbGbGbGbGbGbGbGcaadadadadadadadadadacacacacacacacabaa
-aaabacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadckafclclcmclcncococnclclclclcpcqcpcpcrcrcrcscrcrcrcrcrcrcrcrcrcrcrctcrcrcradadadadadadadadacacacacacacacacabaa
-aaabacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadafclcucvcwcxcycxcxczcxcAclcBcCcDcEcrcFcGcHcIcIcIcrcJcKcrcLcrcMcrcNcrcOcPadadadadadadadadacacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadafclcQcRcScTcTcUcVcWcXcYclcZdadbdccrddcNcNcNcNdecrcJdfcrdgcrdgcrcNcrdhcPadadadadadadadadacacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadafcldidjdkcTcUdldmdncUdocldpdbdqdrcrdsdtcNcNdudvcrdwdxcrdxdxdycrcNdzdAcPadadcbadadadadadacacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadafcldBcudCdDdEcUdDdFdGdHcldIdJcpcpcrcrcrctdKcrcrcrdxdxdLdMdNdOcrdPcrcrcradadadadadadadadacacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadafclcncnclcndQdRdSdTclclclcpcpcpdUcrdVdWcNcNdXdYcrcrcrcrcrdZcrcrcNcreacPadadadadadadadadacacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadebebecedadadadadadcPeeefegegegcNegehegdWcNcNcNegdWcNcNeiejcPadadadadadadadadacacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadekekadadadadadadadcrcrcrelcremencreocrcrepcrcreqcrcrercrcrcradadadadadadadadacacacacacacacacabaa
-aaabacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadebekadadadadadadadcreseteuevewexeyezeAcreBeCcreDeEcrejeaeFcPadadadadadadadadacacacacacacacacabaa
-aaabacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadeGekadadadadadadadeHeIeJeKedadeLeMeNeOcrePeQcrcPcPcrcPcPcPcPadadadeRadadadadacacacacacacacacabaa
-aaabacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadekebadeSadadadadadadadadedadadecadedadadedadadadadadadadadadadadadadadadadacacacacacacacacacabaa
-aaabacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadekekadadadadadadadadadcbadadedadadadadadadadadadadadadadadadcbadadadadadadacacacacacacacacacabaa
-aaabacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadekekadadadadadadadadadadadadadadadadadadeTadadadadadadadadadadadadadadadadacacacacacacacacacabaa
-aaabacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadeUadadekekadadadadeVadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadebekadadadadadadadadadadadadadadadadadadadadadadeWeWeWeWeWeWadadadadadadadacacacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadeXekadadadadadadadadadadadadadeYadadadadadadadadeWeZfafbfceWadadadadadadadacacacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadekekadadadadadadadadeYadadeRadadadadeTadadadadadeWfbfbfafbeWadadeTadadadadacacacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadfdadadadadadadadadadadebekadadadadadadadadadadadadadadadadadadadadadadeWeWfefeeWeWadadadadadadadacacacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadfdadadadadadadadadadekekadadadadadadadadadadadadadadadadadadadadadadadadekekadadadadadadadadadacacacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadeRadadadadekekekekekekekekekekekebebekekekffekekekekekebekekekekekekekekadadadadadadadacacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadcbadadekekekekebekekekekebekekekekekekekekebekekekekekekebekebekekekadadadeRadadadadacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadekekadadadadadadekekadadadadadadadadadadadadadadadadadadadekekadadadadadeYadadacacacacacacacabaa
-aaabacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadfgfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfiadadadadfgfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfiadadadadfgfhfhfhfhfhfiadadadadacacacacacacacabaa
-aaabacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfkekekekekekekekfladadadadfjekekekekekekekfkekekekekekekekfladadeYadfjekekekekekfladadadadacacacacacacacabaa
-aaabacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfkekekekekebekekfladadadadfjekekekekekekekfkekekekekekebekfladadadadfjekekekekekfladadadadacacacacacacacabaa
-aaabacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfkekekekekekekfmfladadadadfjekekekekekekekfkekekekekekekekfladadadadfjekekekekekfladadadadacacacacacacacabaa
-aaabacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfkekekekekekekekfladadadadfjekekekekekekekfkekekekekekekekfladadadadfjekekebekekfladadadadacacacacacacacabaa
-aaabacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfkekekekekekekekfladadadadfjekekekekekekekfkekekekekekekebfladadadadfjekekekekekfladaeadadacacacacacacacabaa
-aaabacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfkekekekekekekekfladadadadfjekekebekekekekfkekekekekekekekfladcbadadfjekekekebekfladadadadacacacacacacacabaa
-aaabacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfnekekekekekekekfladadeRadfjekekekekekekekfnekekekekekekekfladadadadfjekekekekekfladadadadacacacacacacacabaa
-aaabacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekebekfnekekekekekekekfladadadadfjekekekekekekekfnekekekekekekekfladadadadfjfoekekekekfladadadadacacacacacacacabaa
-aaabacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfnekekekekekekekfladcbadadfjekekekekekekekfnekekekekekekekfladadadadfjekekekfoekfladadadadacacacacacacacabaa
-aaabacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfpekekekekekekekfladadadadfjekekekekekekekfpekekekekekekekfladadadadfqfrfrfrfrfrfsadadadacacacacacacacacabaa
-aaabacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadfjfkfkfkfnfnfnfpfpfpfnfnfnfkfkfkfladadadadfjfkfkfkfnfnfnfpfpfpfnfnfnfkfkfkfladadadadadadadadadadadadadadacacacacacacacacabaa
-aaabacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfpekekekekekekekfladadadadfjekekekekekekekfpekekekekekekekfladadadeTadadadadadadadadadadacacacacacacacacabaa
-aaabacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfnekekekebekekekfladadadadfjekekekekekekekfnekekekekekekekfladadadadadadadadadadadadadacacacacacacacacacabaa
-aaabacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfnekekekekekekekfladeTadadfjekekekekekekekfnekekekekebekekfladadadadadadadadadadadadacacacacacacacacacacabaa
-aaabacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfnekekekekekekekfladadfdadfjekekekekekekekfnekekekekekekekfladadadadadadadadadadadadacacacacacacacacacacabaa
-aaabacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfkekekekekekekekfladadadadfjekekekekekekekfkekekekekekekekfladadadadadadadadadadacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfkekekekekekekekfladadadadfjekekekebekekekfkekekekekekekekfladadadadadadaeadadadacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfkekekekekekekekfladadadadfjekekekekekekekfkekekebekekekekfladadadadadadadadadacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfkekekekekekekekfladadadadfjekekekekekekekfkekekekekekekekfladadadadadadadadadacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadfjekekekekekekekfkekekekekekekekfladadcbadfjekekekekekekekfkekekekekekekekfladadadadcbadadadadacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadfjekebekekftekekfkekekebfuekekftfladadadadfjekekekftekebekfkekekfoekebfoekfladadadadadadadadadacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadfjfofvekftebebekfkekfoekekfoekekfladadadadfjekftebekfuekfvfkekfuekftekekekfladadadadadadadadacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadfqfrfrfrfrfrfrfrfrfrfrfrfrfrfrfrfsadadadadfqfrfrfrfrfrfrfrfrfrfrfrfrfrfrfwfsadadadadadadadadacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadeTadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadfxadadadadadadadadadadadadadadadadadeTadadadadfdadadadadadadadfxadadadadadacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadcbadadadadadadadadadadadadadadadadadfdadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadeTadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabaa
-aaababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaa
-fyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababababababababababababababababababababababababababababababababababacababababacacacacacacacacacacacacacacacacacabababababababababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababababababababababababababababababababababababababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababababababababababababababababababababababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabababababababababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababababababababababababababababababababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacababababababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababababababababababababababababababacacacacacacacacacacacacacacacadacacacacacacacacacacacacacacacacaeacacacacacacacacacacacacacacacacacacacacacacababababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababababababababababababacacacacacacacacacacacacacacacacafafagafafafafafafafafafafafafafafafafafafafafafafafafafacacacacacacacacacacacacacacacacacababababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababababababacacacacacacacacacacacacacacacacacacacacacacafafafafafafafafafafafafafafafafafafafafafafafafafafafafacacacacacacacacacacacacacacacacacacabababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababababacacacacacacacacacacacacacacacacacacacacafafafafafafafafafafafafafahafahafahafafafafafafaiafaiafaiafafacacacacacacacacacacacacacacacacacacabababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababababacacacacacacacacacacacacacacacacacacacacafafafafajakakakakafafafafafafafafafafafafafafafafafafafafafafacacacacacacacaeacacacacacacacacacacabababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababababacacacacacacacacacacacacacacacacalacacacacafafafafakamamamajafafafafahafahafahafafafafafafaiafaiafaiafafacacacacacacacacacacacacacacacacacacacababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababacacacacacacacacacacacacacacacacacacacacacacafafafafakanaoapakafafafafafafafafafafafaqafafafafafafafafafafacacacacacacacacacacacacacacadacacacacababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababacacacacacacacacacacacacacacacacacacacacacacafafafafafarakasafafafafafahafahafahafafafafafafaiafaiafaiafafacacacacacacacacacacacacacacacacacacacababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababacacacacacacacacacacacacacacacacacacafafafafafafafafafafatajasafafafafafafafafafafafafafafafafafafafafafafafacacacacacacacacacacacacacacacacacacacacabababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababacacacacacacacacacacacacacacacacacacafauavavavawavavavavaxajasafafafafafafafafafafafafafafafafafafafafafafafacacacacacacacacacacacacacacacacacacacacabababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababacacacacacacacacacacacacacacayacacacafatazaAaBaBaCaBaAaBaBaBaDafafafafafafafafafafafafafafafafafafafafafafafacacacacacacacacacacacacacacacacacacacacabababababababaaaaaaaaaa
+aaaaaaaaaaababababababababacacacacacacacacacacacacacacacacacacacafatasafafaEafafafafafafafafafafacacaFacacaGacacacacacacacacacacacacacacacaHacacacacacacacacacacacacacacacacacacabababababababaaaaaaaaaa
+aaaaaaaaaaabababababababacacacacacacacacacacacacacacacacacacacacaIaJaKaIacacacacacacacacacacacacacacacacaFacacacacacacacacaeacacacacacacacacacacacacacacacacacacacacacacacacacacacababababababaaaaaaaaaa
+aaaaaaaaaaababababababacacacacacacacacacacacacacacacacacacacacacaLaMaNaLacacacacacacacacacaHacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacababababababaaaaaaaaaa
+aaaaaaaaaaababababababacacacacacacacacacacacacacacacacacacacacacaLaOaKaLacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacababababababaaaaaaaaaa
+aaaaaaaaaaababababababacacacacacacacacacacacadacacacacacacacacacaLaPaQaLacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacalacacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaabababababacacacacacacacacacacacacacacacacacacacacaLaLaLaRaSaLaLaLaLaLaLaLaTaTaTaTaTaUaUaUaVaVaVaVaVaVaUaUaWaWaWaWaWaXaXaXaXaXaXaXaXaXaXaXaXaXaXaXacacacacacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaabababababacacacacacacacacacacacaYacacacacacacacacaLaZbabbbcbabdbdbebdbdaLbfbgbhbiaTbjbkblbkbmbmbmbmbmblbmaWbnbobpbqaXbrbrbsbrbrbrbtbubsbvbvbvbvaXacacacacacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaabababababacacacacacacacacacacacacacacacacacacacacaLbwbdbbbcbdbxbybzbAbdaLbBbCbCbDaTbEbmbkbmbFbGbFbFbmbmbHbIbJbJbKbLaXbrbrbrbrbMbrbNbObrbrbrbrbPaXbQacacacacacacacalacacacabababababaaaaaaaaaa
+aaaaaaaaaaabababababacacacacacacacacacacacacacacacacacacacacaLbRbdbbbcbdbSbTbybzbUaLbVbWbXbYaTbZbmbmcabEcbccbEbmbmbmaWcdbJbKceaXcfbrcgbrbrbrbMbrbrchbMbMcicjckacacacacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaababababababacacacacacacacacacacacacacacacacacacacaLclbdbbbcbdbdcmbdbdbdaLcncocpcqaTcrcscsctcucvbFcwbmbkbmcxbJbJbKcyaXbrbrczbrbrcAbrbrbrbMbMbMcicjckacacacacacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaabababababababacacacacacacacacacacacacacacacacacacaLcBbdbbcCcDcDcEcFcGbdaLaTcHcIaTaTcJbkcKbkbmcLcMbmbmcKbmaWbJcNbKcOaXcPcQcRcSbrcTcUcUcVbrbrcWbraXckcXcXacacacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaababababababacacacacacacacacacacacacacacacacacacacaLcYbdcZdadbdbdcdbddbddedfdgdhdidjaUaUaUaVaVdkdlaVaVaUaUaWaWaWdmaWaXdndodpdnaXaXdqdqaXaXaXaXaXdrdrdrdrdracacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaababababababacacacacacacacacacacacacacacacacacacacdsdtbdbbbcbddudvdwbdbddedxdgdydzdAdBdCdDdCdCdEdCdCdCdFdGdHdIdHdJdGdKdLdMdNdOdPdQdRdSdTdPdUdUdUdUdPdUdVdWacacacacdXacacacacababababaaaaaaaaaa
+aaaaaaaaaaabababababacacacacacacacacacacacacacacacacacacacacaLbRbdbbbcbdbxbzdYbxbddedxdZdheaebecdUeddUdUeedUdUdUdUdOefdOegdOdOehdOdOeidOdUdUeedUdUdUdUdUdUdUdUdUdUdWacacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaabababababacacacacacacacacacacacacacacacacacacacacaLejekelbcbdbxbxbxbxbddedxdgdhemdjeneneoenepeqeqepenenenendrerdrdreseseseteseseseseseseseseseseseuesesesacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaabababababacacacacacacacacacacacacacacacacacacacacaLbRbdbbbcbdbdbdbdbdbddedgdgevewdjexeyezeAeBeCeBeBeDeBeEeneFeGeHeIeseJeKeLeMeMeMeseNeOesePeseQeseReseSeTacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacacacacacacacacacacacacacacacacacacaLdedeeUbcdedededededededgdgdhdgdjeVeWeXeYeZeZfafbfcfdfeenfffgfhfiesfjeReReReRfkeseNflesfmesfmeseResfneTacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacacacacacacacfoacacacacacacacacacacdjfpemfqfrfsftfufvdxdgdgdgdgfwfxdjfyfzfAfBeZfafCfDfEfafFenfGfhfHfIesfJfKeReRfLfMesfNfOesfOfOfPeseRfQfReTacacdXacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacacacacacacacacacacacacacacacaeacacdjfSdgfTfUfUfUfUfVfUfUfUfUfWdgfXdjfYfZfzgagbgcfagdgegbgfenggghgigieseseseugjesesesfOfOgkglgmgnesgoesesesacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacaFacacacacacacacacacacacacacacacacdjfSdgdgdggpdgdgdgdgdggpdgdgdggqdjepepgrenepgsgtgugvenenengigigigwesgxgyeReRgzgAesesesesesgBeseseResgCeTacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacacacacacacacacacacacacacacacacacacdjfSgDgEgEgFgGgHgIgJgEgEgEgKgDgqdjacacacacacgLgLgMgNacacacacaceTgOgPgQgQgQeRgQgRgQgyeReReRgQgyeReRgSgTeTacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacacacacacacacacacacacacacacacacacacdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjdjacacacacacgUgUacacacacacacacesesesgVesgWgXesgYesesgZeseshaeseshbesesesacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaabababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacgLgUacacacacacacaceshchdhehfhghhhihjhkeshlhmeshnhoeshphqhreTacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaabababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacachsgUacacacacacacachfhthuhvgNachwhxhyhzeshAhBeseTeTeseTeTeTeTacacacaYacacacacabababababaaaaaaaaaa
+aaaaaaaaaaabababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacgUgLachCacacacacacacacacgNacacgMacgNacacgNacacacacacacacacacacacacacacacacababababababaaaaaaaaaa
+aaaaaaaaaaabababacacacacacacacacalacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacgUgUacacacacacacacacacdXacacgNacacacacacacacacacacacacacacacdXacacacacacacababababababaaaaaaaaaa
+aaaaaaaaaaabababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacgUgUacacacacacacacacacacacacacacacacacacaeacacacacacacacacacacacacacacacacababababababaaaaaaaaaa
+aaaaaaaaaaabababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacgUgUacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacababababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacacacacacacacacacacacacacacfoacacacacacacacacacacacacacacacacacacacacacacacacacgUgUacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacababababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacachDacacacacacacacacaFacacgUgUacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacababababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacgLgUacacacacacacacacacacacacachEhEhEhEhEhEacacacacacacacacacacacacacacacacababababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacachFgUacacacacayacacacacacacacachEhGhHhIhJhEacacacacacacacacacacacacacacacacababababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacacacacacacacacacacaHacacacacacacacacacacacacacacacacacacacacacacacacacacacacacgUgUacacaYacacacacaeacacacacachEhIhIhHhIhEacacaeacacacacacacacacacacacacacababababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacfoacacacacacacacacacacacacacacacacacacfoacacacacacacacacacacacacacacacacacacacgLgUacacacacacacacacacacacacachEhEhKhKhEhEacacacacacacacacacacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacacacacacacacacacacacacacacacacacacacacacfoacacacacacacacacacacacacacacacacacacgUgUacacacacacacacacacacacacacacacgUgUacacacacacacacacacacacacacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaYacacacacgUgUgUgUgUgUgUgUgUgUgUgLgLgUgUgUhLgUgUgUgUgUgLgUgUgUgUgUgUgUgUacacacacacacacacacacacacacayacacababababaaaaaaaaaa
+aaaaaaaaaaababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacdXacacgUgUgUgUgLgUgUgUgUgLgUgUgUgUgUgUgUgUgLgUgUgUgUgUgUgLgUgLgUgUgUacacacaYacacacacacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaabababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacgUgUacacacacacacgUgUacacacacacacacacacacacacacacacacacacacgUgUacacacacacacacacacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaabababababacacacacacacacacacacacacacacacacacacacachMhNhNhNhNhNhNhNhNhNhNhNhNhNhNhNhOacacaHachMhNhNhNhNhNhNhNhNhNhNhNhNhNhNhNhOacacacachMhNhNhNhNhNhOacacacacacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaabababababacacacacacacacacacacacacacacacacacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacayachPgUgUgUgUgUhRacacacacacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaabababababacacacacacacacacacacacacacacacacacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgLgUgUhRacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgLgUhRacacacachPgUgUgUgUgUhRacacacacacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaabababababacacacacacacacacacacacacacacacacacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUhShRacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacacachPgUgUgUgUgUhRacacacacacacacacacalacacababababaaaaaaaaaa
+aaaaaaaaaaabababababacacacacacacacacacacacacacacacacacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacacachPgUgUgLgUgUhRacacacacacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaababababababacacacacacacacacacacacacacacacacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgLhRacacacachPgUgUgUgUgUhRacacacacacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaababababababacacacacacacacaFacacacacacacacacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacacachPgUgUgLgUgUgUgUhQgUgUgUgUgUgUgUhRacdXacachPgUgUgUgLgUhRacacacacacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaababababababacacacacacaFacacacacacacacacacacacacachPgUgUgUgUgUgUgUhTgUgUgUgUgUgUgUhRacacaYachPgUgUgUgUgUgUgUhTgUgUgUgUgUgUgUhRacacacachPgUgUgUgUgUhRacacacacacacacacacacacacababababaaaaaaaaaa
+aaaaaaaaaaababababababacacacacacacacacacacacacacacacacacacachPgUgUgUgUgUgLgUhTgUgUgUgUgUgUgUhRacacacachPgUgUgUgUgUgUgUhTgUgUgUgUgUgUgUhRacacacachPhUgUgUgUgUhRacacacacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaababababababacacacacacacacacacacacacacacacacacacachPgUgUgUgUgUgUgUhTgUgUgUgUgUgUgUhRacdXacachPgUgUgUgUgUgUgUhTgUgUgUgUgUgUgUhRacacacachPgUgUgUhUgUhRacacacacaFacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaababababababacacacacacacacacacacacacacacacacacacachPgUgUgUgUgUgUgUhVgUgUgUgUgUgUgUhRacacacachPgUgUgUgUgUgUgUhVgUgUgUgUgUgUgUhRacacacachWhXhXhXhXhXhYacacacacacacacacacacacabababababaaaaaaaaaa
+aaaaaaaaaaababababababacacacacacacacacacacacacacacacacacacachPhQhQhQhThThThVhVhVhThThThQhQhQhRacacacachPhQhQhQhThThThVhVhVhThThThQhQhQhRacacacacacacacacacacacacacacacacacacacacacababababababaaaaaaaaaa
+aaaaaaaaaaabababababababacacacacacacacacacacacacacacacacacachPgUgUgUgUgUgUgUhVgUgUgUgUgUgUgUhRacacacachPgUgUgUgUgUgUgUhVgUgUgUgUgUgUgUhRacacacaeacacacacacacacacacacacacacacacacabababababababaaaaaaaaaa
+aaaaaaaaaaabababababababacacacacacacacacacacacacacacacacacachPgUgUgUgUgUgUgUhTgUgUgUgLgUgUgUhRacacacachPgUgUgUgUgUgUgUhTgUgUgUgUgUgUgUhRacacacacacacacacacacacacacacacacacacacacabababababababaaaaaaaaaa
+aaaaaaaaaaabababababababacacacacacacacacacacacacacacacacacachPgUgUgUgUgUgUgUhTgUgUgUgUgUgUgUhRacaeacachPgUgUgUgUgUgUgUhTgUgUgUgUgLgUgUhRacacacacacacacacacacacacacacacacacacabababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababacacacacacacacacacacacacacacacacacachPgUgUgUgUgUgUgUhTgUgUgUgUgUgUgUhRacacfoachPgUgUgUgUgUgUgUhTgUgUgUgUgUgUgUhRacacacacacacacacacacacacacacacacacacabababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababacacacacacacacacacacfoacayacacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacacacacacacacacacacacacacacacacababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababacacacacacacacacacacfoacacacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacacachPgUgUgUgLgUgUgUhQgUgUgUgUgUgUgUhRacacacacacacalacacacacacacacacacacababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababacacacacacacacacacacacacacacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacacachPgUgUgUgUgUgUgUhQgUgUgLgUgUgUgUhRacacacacacacacacacacacacacacacacacababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababacacacacacacacacacacacacacacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacacacacacacacacacacacacacacacacababababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababacacacacacacacacayacacacacacacachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacdXachPgUgUgUgUgUgUgUhQgUgUgUgUgUgUgUhRacacacacdXacacacacacacacacacacacabababababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababacacacacacacacacacacacacacacacachPgUgLgUgUhZgUgUhQgUgUgLiagUgUhZhRacacacachPgUgUgUhZgUgLgUhQgUgUhUgUgLhUgUhRacacacacacacacacacacacacacacacacabababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababacacacacacacacacacacacacacacachPhUibgUhZgLgLgUhQgUhUgUgUhUgUgUhRacacacachPgUhZgLgUiagUibhQgUiagUhZgUgUgUhRacacacacacacacacacacacacacacacacabababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababacacacacacacacacacacacacacacachWhXhXhXhXhXhXhXhXhXhXhXhXhXhXhXhYacacacachWhXhXhXhXhXhXhXhXhXhXhXhXhXhXichYacacacacacacacacacacacacacacacababababababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabababababababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababababababababacacacacacacacacacacacacacacacacacacacacacacdXacacacacacacacacacacacacacacacacacfoacacacacacacacacacacacacacacacacacacababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababababababababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaeacacacacacacacacacacacacacacacacacacacacacacacababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababababababababababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaabababababababababababababababababababababababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacababababababababababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababababababababababababababababababababacacacacacacacacacacacacacacacacacacacacacacacacacacacacacabababababababababababababababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababababababababababababababababababababababababababababababacacacacacacacacacacacacacacacacababababababababababababababababababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+idaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}

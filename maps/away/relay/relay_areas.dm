@@ -1,11 +1,24 @@
-/area/relay/relay_outside
-	name = "\improper Grassy Field"
+/area/relay
+	base_turf = /turf/unsimulated/floor/relay/grass/
+
+/area/relay/outside
+	sound_env = FOREST
+	ambience = list('sound/ambience/jungle.ogg', 'sound/ambience/ambiatm1.ogg')
+
+/area/relay/outside/Initialize()
+	for(var/turf/T in src)
+		T.set_light(5, 0.5, "fafaff")
+		T.temperature = T20C - 11
+
+/area/relay/outside/relay_outside
+	name = "\improper Relay Station Grassy Field"
 	icon_state = "relay_grass"
 	icon = 'relay_sprites.dmi'
-	sound_env = FOREST
-	base_turf = /turf/simulated/floor/relay/grass/
 	always_unpowered = 1
-	ambience = list('sound/ambience/jungle.ogg', 'sound/ambience/ambiatm1.ogg')
+
+/area/relay/outside/radio_field
+	name = "\improper Relay Station Antenna Array"
+	icon_state = "engineering"
 
 /area/relay/shuttle_storage_room
 	name = "\improper Relay Station Shuttle Maintenance"
@@ -39,7 +52,14 @@
 	name = "\improper Relay Station Main Hallway"
 	icon_state = "hallC1"
 
-/area/relay/relay_outside/Initialize()
-	for(var/turf/T in src)
-		T.set_light(5, 1, "f4f4ff")
-		T.temperature = T20C - 11
+/area/relay/telecom
+	name = "\improper Relay Station Server Room"
+	icon_state = "server"
+
+/area/relay/telecom/control_room
+	name = "\improper Relay Station Control Room"
+	icon_state = "bridge"
+
+/area/relay/telecom/secure
+	name = "\improper Relay Station Secure Data"
+	icon_state = "security"

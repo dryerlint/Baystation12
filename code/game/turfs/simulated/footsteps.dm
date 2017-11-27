@@ -4,7 +4,7 @@
 #define FOOTSTEP_WOOD 		"wood"
 #define FOOTSTEP_ASTEROID 	"asteroid"
 
-/turf/simulated/floor/var/global/list/footstep_sounds = list(
+/turf/var/global/list/footstep_sounds = list(
 	FOOTSTEP_WOOD = list(
 		'sound/effects/footstep/wood1.ogg',
 		'sound/effects/footstep/wood2.ogg',
@@ -54,6 +54,15 @@
 	return safepick(footstep_sounds[FOOTSTEP_ASTEROID])
 
 /turf/simulated/floor/Entered(var/mob/living/carbon/human/H)
+	..()
+	if(istype(H))
+		H.handle_footsteps()
+		H.step_count++
+
+/turf/unsimulated/floor/proc/get_footstep_sound() //unsimulated turfs default to plating
+	return safepick(footstep_sounds[FOOTSTEP_PLATING])
+
+/turf/unsimulated/floor/Entered(var/mob/living/carbon/human/H)
 	..()
 	if(istype(H))
 		H.handle_footsteps()
