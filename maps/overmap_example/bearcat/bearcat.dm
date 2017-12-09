@@ -29,6 +29,7 @@
 	shuttle_area = /area/ship/scrap/shuttle/outgoing
 	dock_target = "bearcat_shuttle"
 	current_location = "nav_bearcat_port_dock_shuttle"
+	transponder_present = 1
 
 /datum/shuttle/autodock/ferry/lift
 	name = "Cargo Lift"

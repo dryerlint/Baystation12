@@ -1,0 +1,35 @@
+{{:helper.link('Refresh', null, {'refresh' : 1})}}<br>
+{{for data.tracked_shuttles}}
+	<div class="item">
+		<div class="itemLabel">
+			<b>Shuttle Name:</b>
+		</div>
+		<div class="itemContent">
+			<b>{{:value.name}}</b>
+		</div>
+		<div class="itemLabel">
+			Shuttle Status:
+		</div>
+		<div class="itemContent">
+			{{if value.moving_status == data.TRANSIT_CONST}}
+				<span class='average'>In Transit - Moving to Destination</span>
+			{{else value.moving_status == data.WARMUP_CONST}}
+				<span class='bad'>Preparing to Launch - Stand Clear</span>
+			{{else}}
+				<span class='good'>Idle</span>
+			{{/if}}
+		</div>
+		<div class="itemLabel">
+			Current Location:
+		</div>
+		<div class="itemContent">
+			{{:value.current_location}}
+		</div>
+	</div>
+{{empty}}
+	<div class="notice" style="color: #000000;">
+		<h2 style="color: #000000;">Error:</h2>
+		<h3 style="color: #000000;">No shuttle transponders detected.</h3>
+		<div class="clearBoth"></div>
+	</div>
+{{/for}}

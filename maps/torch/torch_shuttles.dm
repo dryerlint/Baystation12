@@ -186,6 +186,7 @@
 	dock_target = "petrov_shuttle"
 	waypoint_station = "nav_petrov_start"
 	waypoint_offsite = "nav_petrov_out"
+	transponder_present = 1
 
 /obj/effect/shuttle_landmark/petrov/start
 	name = "First Deck"
@@ -558,6 +559,7 @@
 	landmark_transition = "nav_transit_calypso"
 	range = 1
 	fuel_consumption = 4
+	transponder_present = 1
 
 /obj/effect/shuttle_landmark/torch/hangar/exploration_shuttle
 	name = "Charon Hangar"
@@ -599,6 +601,7 @@
 	sound_takeoff = 'sound/effects/rocket.ogg'
 	sound_landing = 'sound/effects/rocket_backwards.ogg'
 	fuel_consumption = 2
+	transponder_present = 1
 
 /obj/effect/shuttle_landmark/torch/hangar/guppy
 	name = "Guppy Hangar"
@@ -638,6 +641,7 @@
 	landmark_transition = "nav_transit_aquila"
 	dock_target = "aquila_shuttle"
 	range = 2
+	transponder_present = 1
 
 /obj/effect/shuttle_landmark/torch/hangar/aquila
 	name = "Aquila Hangar"

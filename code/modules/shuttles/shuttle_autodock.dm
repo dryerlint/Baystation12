@@ -14,6 +14,9 @@
 	var/obj/effect/shuttle_landmark/landmark_transition
 	var/move_time = 240		//the time spent in the transition area
 
+	var/transponder_present = 0 //used in the Shuttle Traffic Control computer program
+	var/transponder_on = 1
+
 	category = /datum/shuttle/autodock
 
 /datum/shuttle/autodock/New(var/_name, var/obj/effect/shuttle_landmark/start_waypoint)
