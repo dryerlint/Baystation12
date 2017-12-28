@@ -173,7 +173,10 @@
 /obj/structure/sign/warning/radio_frequency
 	name = "\improper RF HAZARD"
 	icon_state = "rfhazard"
-	desc = "Small text at the bottom reads 'radio frequency fields beyond this point may exceed general exposure limits.'"
+
+obj/structure/sign/warning/radio_frequency/New()
+	..()
+	desc += " Small text at the bottom reads 'radio frequency fields beyond this point may exceed general exposure limits.'"
 
 /obj/structure/sign/warning/secure_area
 	name = "\improper SECURE AREA"

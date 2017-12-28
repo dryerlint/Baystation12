@@ -59,6 +59,22 @@ Property of HSF Inc.[/i][/small]
 */
 
 /*
+<font face="Verdana" color=black>
+<center><B>HSF Incorporated</B><BR>
+<B>Long-Distance Message</B></center><BR>
+<table></td><tr><td><font size = "1"><B>Message #:</B><td><font size = "1"><B>0000430</B><BR>
+</td><tr><td><font size = "1"><B>Origin:</B><td><font size = "1">Company Headquarters <I>(ID#001)</I><BR>
+</td><tr><td><font size = "1"><B>Destination:</B><td><font size = "1">Pentaline Relay Station <I>(ID#009)</I><BR>
+</td><tr><td><font size = "1"><B>Send Date:</B><td><font size = "1"><B>2539-03-11</B><BR>
+</td><tr><td><font size = "1">--------------------<td><font size = "1"><I>MESSAGE FOLLOWS</I><BR>
+</td></tr></table><HR><BR>
+Insert message here.<BR>
+<BR>
+<HR><font size = "1"><I>Recieved and printed at: Pentaline Relay Station<BR>
+Property of HSF Inc.</I></font></font>
+*/
+
+/*
 Crew Manifest...
 1) Chief Engineer: Mary Praday
 2) Telecommunications Technician: ??? ???
@@ -80,29 +96,32 @@ Guy at HQ: Andersen Payad
 
 /obj/item/weapon/paper/relay/note_testmessage
 	name = "message printout"
-	info = "<center><b>HSF Incorporated</b>\
-	<b>Long-Distance Message</b></center>\
-	<grid><row><cell><small><b>Message #:</b><cell><small><b>0000430</b>\
-	<row><cell><small><b>Origin:</b><cell><small>Company Headquarters <i>(ID#001)</i>\
-	<row><cell><small><b>Destination:</b><cell><small>Pentaline Relay Station <i>(ID#009)</i>\
-	<row><cell><small><b>Send Date:</b><cell><small><b>2539-03-11</b>\
-	<row><cell><small>--------------------<cell><small><i>MESSAGE FOLLOWS</i>\
-	</grid><hr>\
+	info = "<font face=\"Verdana\" color=black>\
+	<center><B>HSF Incorporated</B><BR>\
+	<B>Long-Distance Message</B></center><BR>\
+	<table></td><tr><td><font size=\"1\"><B>Message #:</B><td><font size = \"1\"><B>0000430</B><BR>\
+	</td><tr><td><font size=\"1\"><B>Origin:</B><td><font size=\"1\">Company Headquarters <I>(ID#001)</I><BR>\
+	</td><tr><td><font size=\"1\"><B>Destination:</B><td><font size=\"1\">Pentaline Relay Station <I>(ID#009)</I><BR>\
+	</td><tr><td><font size=\"1\"><B>Send Date:</B><td><font size=\"1\"><B>2539-03-11</B><BR>\
+	</td><tr><td><font size=\"1\">--------------------<td><font size=\"1\"><I>MESSAGE FOLLOWS</I><BR>\
+	</td></tr></table><HR><BR>\
 	TEST MESSAGE - HSF INCORPORATED - \
-	PENTALINE RELAY STATION INITIAL COMMUNICATIONS TEST - TEST MESSAGE OVER\
-	<br><hr><small><i>Recieved and printed at: Pentaline Relay Station\
-	Property of HSF Inc.</i></small>"
+	PENTALINE RELAY STATION INITIAL COMMUNICATIONS TEST - TEST MESSAGE OVER<BR>\
+	<BR>\
+	<HR><font size=\"1\"><I>Recieved and printed at: Pentaline Relay Station<BR>\
+	Property of HSF Inc.</I></font></font>"
 
 /obj/item/weapon/paper/relay/note_congrats
 	name = "message printout"
-	info = "<center><b>HSF Incorporated</b>\
-	<b>Long-Distance Message</b></center>\
-	<grid><row><cell><small><b>Message #:</b><cell><small><b>0000438</b>\
-	<row><cell><small><b>Origin:</b><cell><small>Company Headquarters <i>(ID#001)</i>\
-	<row><cell><small><b>Destination:</b><cell><small>Pentaline Relay Station <i>(ID#009)</i>\
-	<row><cell><small><b>Send Date:</b><cell><small><b>2539-03-11</b>\
-	<row><cell><small>--------------------<cell><small><i>MESSAGE FOLLOWS</i>\
-	</grid><hr>\
+	info = "<font face=\"Verdana\" color=black>\
+	<center><B>HSF Incorporated</B><BR>\
+	<B>Long-Distance Message</B></center><BR>\
+	<table></td><tr><td><font size=\"1\"><B>Message #:</B><td><font size = \"1\"><B>0000438</B><BR>\
+	</td><tr><td><font size=\"1\"><B>Origin:</B><td><font size=\"1\">Company Headquarters <I>(ID#001)</I><BR>\
+	</td><tr><td><font size=\"1\"><B>Destination:</B><td><font size=\"1\">Pentaline Relay Station <I>(ID#009)</I><BR>\
+	</td><tr><td><font size=\"1\"><B>Send Date:</B><td><font size=\"1\"><B>2539-03-11</B><BR>\
+	</td><tr><td><font size=\"1\">--------------------<td><font size=\"1\"><I>MESSAGE FOLLOWS</I><BR>\
+	</td></tr></table><HR><BR>\
 	Director Michael,<br>\
 	Congratulations on your assignment as the manager of our new communications facility!\
 	I hope the construction went well. The technicians on this end report that we\
@@ -114,9 +133,10 @@ Guy at HQ: Andersen Payad
 	Remember, your team and your facility are our one link to the colonists out there. Good luck!\
 	Thank you,<br>\
 	Andersen Payad<br>\
-	HSF Inc.\
-	<br><hr><small><i>Recieved and printed at: Pentaline Relay Station\
-	Property of HSF Inc.</i></small>"
+	HSF Inc.<BR>\
+	<BR>\
+	<HR><font size=\"1\"><I>Recieved and printed at: Pentaline Relay Station<BR>\
+	Property of HSF Inc.</I></font></font>"
 
 /obj/item/weapon/paper/relay/note_spaceside
 	name = "message printout"

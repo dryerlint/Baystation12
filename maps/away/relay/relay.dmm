@@ -229,7 +229,7 @@
 "eu" = (/obj/machinery/door/airlock{name = "Bunks"},/turf/simulated/floor/wood,/area/relay/bunks)
 "ev" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
 "ew" = (/obj/machinery/power/apc/derelict{dir = 4},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled/dark,/area/relay/telecom/control_room)
-"ex" = (/obj/effect/floor_decal/corner/blue/diagonal,/obj/structure/filingcabinet/filingcabinet,/obj/item/weapon/paper/relay/welcome_note,/turf/simulated/floor/tiled,/area/relay/foyer)
+"ex" = (/obj/effect/floor_decal/corner/blue/diagonal,/obj/structure/filingcabinet/filingcabinet,/obj/item/weapon/paper/relay/note_welcome,/turf/simulated/floor/tiled,/area/relay/foyer)
 "ey" = (/obj/effect/floor_decal/corner/blue/diagonal,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/relay/foyer)
 "ez" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/corner/blue/diagonal,/turf/simulated/floor/tiled,/area/relay/foyer)
 "eA" = (/obj/structure/table/standard,/obj/item/clothing/head/bowlerhat{pixel_x = 0; pixel_y = 0},/obj/structure/noticeboard{pixel_y = 32},/turf/simulated/floor/tiled/dark,/area/relay/foyer)
