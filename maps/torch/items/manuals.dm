@@ -106,7 +106,7 @@
 	</center>
 	<b>FROM:</b> ADM William Lau<br>
 	<b>TO:</b> Commanding Officer of SEV Torch<br>
-	<b>SUBJECT:</b> Standing Orders<br>
+	<b>SUBJECT:</b> Vessel Flight Plans<br>
 	<hr>
 	Captain.<br>
 	Your orders are to visit the following star systems. Keep in mind that your supplies are limited; ration exploration time accordingly.
@@ -124,18 +124,19 @@
 	None of these systems are claimed by any entity recognized by the SCG, so you have full salvage rights on any derelicts discovered.<br>
 	Investigate and mark any prospective colony worlds as per usual procedures.<br>
 	There is no SCG presence in that area. In case of distress calls, you will be the only vessel available; do not ignore them. We cannot afford any more PR backlash.<br>
+	That said, your vessel is already close to capacity, so try to avoid taking on unnecessary passengers. The flight plan that we filed with EC Command only lists your current crew. You don't get to bring friends.<br>
 	Report all findings via bluespace comm buoys during inter-system jumps.<br>
 
 	<i>ADM Lau.</i></tt>
 	<i>This paper has been stamped with the stamp of SCG Expeditionary Command.</i>
 	"}
-	new/obj/item/weapon/paper(src, memo, "Standing Orders")
+	new/obj/item/weapon/paper(src, memo, "Vessel Flight Plans")
 
 	new/obj/item/weapon/paper/umbra(src)
 
 /obj/item/weapon/folder/envelope/rep
 	desc = "A thick envelope. The SCG crest is stamped in the corner, along with 'TOP SECRET - UMBRA'."
-	
+
 /obj/item/weapon/folder/envelope/rep/Initialize()
 	. = ..()
 	new/obj/item/weapon/paper/umbra(src)
