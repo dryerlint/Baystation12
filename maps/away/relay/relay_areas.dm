@@ -59,7 +59,3 @@
 /area/relay/telecom/control_room
 	name = "\improper Relay Station Control Room"
 	icon_state = "bridge"
-
-/area/relay/telecom/secure
-	name = "\improper Relay Station Secure Data"
-	icon_state = "security"
