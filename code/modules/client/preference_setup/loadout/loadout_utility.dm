@@ -16,6 +16,11 @@
 	path = /obj/item/weapon/storage/belt/waistpack/big
 	cost = 4
 
+/datum/gear/utility/camera
+	display_name = "large waist pack"
+	path = /obj/item/device/camera
+	cost = 3
+
 /datum/gear/utility/clipboard
 	display_name = "clipboard"
 	path = /obj/item/weapon/clipboard
