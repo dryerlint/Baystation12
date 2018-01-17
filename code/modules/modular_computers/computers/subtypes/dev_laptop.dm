@@ -6,7 +6,12 @@
 	icon_state_unpowered = "laptop-open"
 	icon = 'icons/obj/modular_laptop.dmi'
 	icon_state = "laptop-open"
+	item_state = "laptop"
 	icon_state_screensaver = "standby"
+	item_icons = list(
+		icon_l_hand = 'icons/mob/items/lefthand.dmi',
+		icon_r_hand = 'icons/mob/items/righthand.dmi',
+		)
 	base_idle_power_usage = 25
 	base_active_power_usage = 200
 	max_hardware_size = 2

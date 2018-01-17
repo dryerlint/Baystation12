@@ -799,8 +799,16 @@
 	attack_verb = list("attacked", "whacked", "jabbed", "poked", "marshalled")
 
 /obj/item/weapon/marshalling_wand/Initialize()
-	set_light(1.5, 1.5, "#ff0000")
+	set_light(1, 1, "#ff0000")
 	return ..()
+
+/obj/item/weapon/marshalling_wand/get_mob_overlay(mob/user_mob, slot)
+	var/image/res = ..()
+	var/image/wand_overlay = overlay_image(res.icon, "[icon_state]")
+	wand_overlay.layer = ABOVE_LIGHTING_LAYER
+	wand_overlay.plane = EFFECTS_ABOVE_LIGHTING_PLANE
+	res.overlays += wand_overlay
+	return res
 
 /obj/item/weapon/marshalling_wand/attack_self(mob/living/user as mob)
 	if (user.a_intent == I_HELP)
